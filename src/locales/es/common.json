@@ -1,0 +1,11 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Sobre Mí",
+    "clients": "Clientes",
+    "videos": "Videos",
+    "portfolio": "Portfolio",
+    "contact": "Contacto"
+  }
+}
