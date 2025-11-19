@@ -7,5 +7,16 @@
     "videos": "Videos",
     "portfolio": "Portfolio",
     "contact": "Contact"
+  },
+
+  "hero": {
+    "translator": "Certified Professional Translator",
+    "connecting": "Connecting languages,",
+    "services": "High-quality professional translation services that preserve the meaning, tone, and intent of your original message.",
+    "quotes": "Get your quote",
+    "clients": "Satisfied clients",
+    "about_us": "About Us",
+    "projects": "Projects",
+    "satisfaction": "Satisfaction"
   }
 }

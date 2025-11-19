@@ -7,5 +7,16 @@
     "videos": "Videos",
     "portfolio": "Portfolio",
     "contact": "Contacto"
+  },
+
+  "hero": {
+    "translator": "Traductor Profesional Certificado",
+    "connecting": "Conectando idiomas,",
+    "services": "Servicios de traducción profesional de alta calidad que preservan el significado, el tono y la intención de vuestro mensaje original.",
+    "quotes": "Obténga su presupuesto",
+    "clients": "Clientes satisfechos",
+    "about_us": "Sobre Nosotros",
+    "projects": "Proyectos",
+    "satisfaction": "Satisfacción"
   }
 }

@@ -9,12 +9,20 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
 import Videos from "./components/Videos";
+import { useTranslation } from "react-i18next";
+import VideoPresentation from "./components/VideoPesentation";
+
+export type ComponenteParams = {
+  t: (key: string) => string;
+};
 
 function App() {
+  const { t } = useTranslation();
   return (
     <div className="App">
       <Navbar />
-      <Hero />
+      <Hero t={t} />
+      <VideoPresentation />
       <Services />
       <About />
       <Videos />
