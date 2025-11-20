@@ -22,12 +22,12 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero t={t} />
-      <VideoPresentation />
+      <VideoPresentation t={t} />
       <Services />
-      <About />
+      {/* <About />
       <Videos />
       <Portfolio />
-      <Contact />
+      <Contact /> */}
       <Footer />
     </div>
   );

@@ -21,7 +21,7 @@ const Hero: FC<ComponenteParams> = ({ t }) => {
           </div>
 
           <div className="hero-title">
-            <span>{t("hero.connecting")}</span>
+        
             <span className="gradient-text">
               Your tongue, your vehicle to the world
             </span>

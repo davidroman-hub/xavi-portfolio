@@ -18,5 +18,13 @@
     "about_us": "Sobre Nosotros",
     "projects": "Proyectos",
     "satisfaction": "Satisfacción"
+  },
+
+  "meet": {
+    "video": "Video presentación",
+    "title": "Conozca a Xavier Brucart, el corazón y la mente detrás de",
+    "title2": "BrucarTranslations",
+    "description": "Descubre la pasión, experiencia y dedicación que hay detrás de cada traducción. Una mirada personal al profesional que transformará tus palabras.",
+    "watch": "Ver presentación en otro idioma"
   }
 }

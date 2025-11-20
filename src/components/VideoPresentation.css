@@ -127,7 +127,7 @@
   background: none;
   border: none;
   cursor: pointer;
-  font-size: 1.125rem;
+  font-size: 10px;
   color: var(--gray-800);
   transition: var(--transition-fast);
   position: relative;

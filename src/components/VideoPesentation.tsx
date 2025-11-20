@@ -1,17 +1,28 @@
-import React, { useState } from "react";
+import React, { FC, useEffect, useState } from "react";
 import "./VideoPresentation.css";
+import { ComponenteParams } from "../App";
+import flag from "../assets/catalan.png";
+import i18next from "i18next";
 
-const VideoPresentation = () => {
-  const [selectedLanguage, setSelectedLanguage] = useState("es");
+const VideoPresentation: FC<ComponenteParams> = ({ t }) => {
+  const currentLocale = i18next.language;
+  const [selectedLanguage, setSelectedLanguage] = useState(
+    currentLocale || "es"
+  );
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const availableLanguages = [
-    { code: "es", name: "Español", flag: "🇪🇸", videoId: "jdgL8jnWUpE" },
-    { code: "en", name: "English", flag: "🇺🇸", videoId: "dQw4w9WgXcQ" },
-    { code: "fr", name: "Français", flag: "🇫🇷", videoId: "dQw4w9WgXcQ" },
-    { code: "de", name: "Deutsch", flag: "🇩🇪", videoId: "dQw4w9WgXcQ" },
-    { code: "pt", name: "Português", flag: "🇵🇹", videoId: "dQw4w9WgXcQ" },
-    { code: "ar", name: "العربية", flag: "🇸🇦", videoId: "dQw4w9WgXcQ" },
+    { code: "es", name: "Español", flag: "🇪🇸", videoId: "c9Vy1Sso4xc" },
+    { code: "en", name: "English", flag: "🇬🇧", videoId: "tZ8n5v_FDHI" },
+    { code: "fr", name: "Français", flag: "🇫🇷", videoId: "1AM1RSyAsnk" },
+    {
+      code: "cat",
+      name: "Català",
+      flag: null,
+      img: flag,
+      videoId: "CdtqidHecK8",
+    },
+    { code: "ar", name: "العربية", flag: "🇸🇦", videoId: "HdyVWB8eDZI" },
   ];
 
   const getCurrentLanguage = () => {
@@ -26,20 +37,20 @@ const VideoPresentation = () => {
     setIsDropdownOpen(false);
   };
 
+  useEffect(() => {
+    setSelectedLanguage(currentLocale || "en");
+  }, [currentLocale]);
+
   return (
     <section className="video-presentation">
       <div className="container">
         <div className="video-presentation-header">
-          <div className="section-badge">🎬 Video Presentación</div>
+          <div className="section-badge">🎬 {t("meet.video")}</div>
           <h2 className="section-title">
-            Conozca a Xavier Brucart, el corazón y la mente detrás de{" "}
-            <span className="gradient-text">BrucarTranslations</span>
+            {t("meet.title")}{" "}
+            <span className="gradient-text">{t("meet.title2")}</span>
           </h2>
-          <p className="section-description">
-            Descubre la pasión, experiencia y dedicación que hay detrás de cada
-            traducción. Una mirada personal al profesional que transformará tus
-            palabras.
-          </p>
+          <p className="section-description">{t("meet.description")}</p>
         </div>
 
         <div className="video-card">
@@ -65,8 +76,16 @@ const VideoPresentation = () => {
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
             >
               <span className="current-language">
-                <span className="flag">{getCurrentLanguage().flag}</span>
-                <span className="text">Ver presentación en otro idioma</span>
+                {getCurrentLanguage().flag !== null ? (
+                  <span className="flag">{getCurrentLanguage().flag}</span>
+                ) : (
+                  <img
+                    width={20}
+                    src={getCurrentLanguage().img}
+                    alt={getCurrentLanguage().name}
+                  />
+                )}
+                <span className="text">{t("meet.watch")}</span>
               </span>
               <span className="chevron">{isDropdownOpen ? "▲" : "▼"}</span>
             </button>
@@ -81,7 +100,17 @@ const VideoPresentation = () => {
                     }`}
                     onClick={() => handleLanguageChange(language.code)}
                   >
-                    <span className="flag">{language.flag}</span>
+                    <span className="flag">
+                      {language.flag ? (
+                        language.flag
+                      ) : (
+                        <img
+                          width={20}
+                          src={language.img}
+                          alt={language.name}
+                        />
+                      )}
+                    </span>
                     <span className="name">{language.name}</span>
                     {language.code === selectedLanguage && (
                       <span className="check">✓</span>
