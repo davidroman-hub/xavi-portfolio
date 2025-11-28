@@ -1,0 +1,89 @@
+/* ============================================
+   PORTFOLIO SECTION STYLES
+   ============================================ */
+
+.portfolio {
+  background: var(--gray-50);
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: var(--space-xl);
+}
+
+.portfolio-item {
+  background: var(--white);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-normal);
+}
+
+.portfolio-item:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+}
+
+.portfolio-image {
+  height: 200px;
+  background: var(--gradient-hero);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-overlay {
+  position: absolute;
+  top: var(--space-md);
+  left: var(--space-md);
+}
+
+.portfolio-category {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: var(--font-weight-medium);
+  color: var(--gray-700);
+}
+
+.portfolio-content {
+  padding: var(--space-xl);
+}
+
+.portfolio-content h3 {
+  margin-bottom: var(--space-md);
+  color: var(--gray-900);
+}
+
+.portfolio-content p {
+  margin-bottom: var(--space-lg);
+  color: var(--gray-600);
+}
+
+.portfolio-languages {
+  display: flex;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.language-tag {
+  background: var(--primary-100);
+  color: var(--primary-700);
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: var(--font-weight-medium);
+}
+
+/* ============================================
+   PORTFOLIO RESPONSIVE DESIGN
+   ============================================ */
+
+@media (max-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -42,10 +42,13 @@ const VideoPresentation: FC<ComponenteParams> = ({ t }) => {
   }, [currentLocale]);
 
   return (
-    <section className="video-presentation">
+    <section id="video-presentation" className="video-presentation">
       <div className="container">
         <div className="video-presentation-header">
           <div className="section-badge">🎬 {t("meet.video")}</div>
+          <h2 className="section-title-2">
+            {t("meet.title1.1")}
+          </h2>
           <h2 className="section-title">
             {t("meet.title")}{" "}
             <span className="gradient-text">{t("meet.title2")}</span>

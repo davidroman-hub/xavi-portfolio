@@ -1,5 +1,6 @@
 import React, { FC } from "react";
 import { ComponenteParams } from "../App";
+import flag from "../assets/catalan.png";
 
 const Hero: FC<ComponenteParams> = ({ t }) => {
   const scrollToSection = (sectionId: string) => {
@@ -21,8 +22,10 @@ const Hero: FC<ComponenteParams> = ({ t }) => {
           </div>
 
           <div className="hero-title">
-        
-            <span className="gradient-text">
+            <span
+              className="gradient-text rebel"
+              style={{ marginBottom: "-2px" }}
+            >
               Your tongue, your vehicle to the world
             </span>
             <span className="gradient-text">
@@ -61,7 +64,7 @@ const Hero: FC<ComponenteParams> = ({ t }) => {
                 color: "#333",
               }}
               className="btn btn-secondary about-us"
-              onClick={() => scrollToSection("portfolio")}
+              onClick={() => scrollToSection("video-presentation")}
             >
               {t("hero.about_us")}
             </button>
@@ -102,6 +105,19 @@ const Hero: FC<ComponenteParams> = ({ t }) => {
             <div className="card-flag">🇸🇦</div>
             <div className="card-text">العَرَبِيَّة</div>
           </div>
+
+          <div className="floating-card card-6">
+            <div className="card-flag">
+              <img width={20} src={flag} alt="Català" />
+            </div>
+            <div className="card-text">Català</div>
+          </div>
+
+          <div className="floating-card card-7">
+            <div className="card-flag">🌐</div>
+            <div className="card-text">{t("hero.others")}</div>
+          </div>
+
           <div className="hero-circle"></div>
         </div>
       </div>

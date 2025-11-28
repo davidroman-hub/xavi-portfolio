@@ -13,16 +13,18 @@
     "translator": "Traductor Profesional Certificado",
     "connecting": "Conectando idiomas,",
     "services": "Servicios de traducción profesional de alta calidad que preservan el significado, el tono y la intención de vuestro mensaje original.",
-    "quotes": "Obténga su presupuesto",
+    "quotes": "Obtenga su presupuesto",
     "clients": "Clientes satisfechos",
     "about_us": "Sobre Nosotros",
     "projects": "Proyectos",
-    "satisfaction": "Satisfacción"
+    "satisfaction": "Satisfacción",
+    "others": "Otros idiomas"
   },
 
   "meet": {
     "video": "Video presentación",
-    "title": "Conozca a Xavier Brucart, el corazón y la mente detrás de",
+    "title1.1":"Conozca a Xavier Brucart",
+    "title": "El corazón y la mente detrás de",
     "title2": "BrucarTranslations",
     "description": "Descubre la pasión, experiencia y dedicación que hay detrás de cada traducción. Una mirada personal al profesional que transformará tus palabras.",
     "watch": "Ver presentación en otro idioma"

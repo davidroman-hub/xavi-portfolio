@@ -17,11 +17,13 @@
     "clients": "Satisfied clients",
     "about_us": "About Us",
     "projects": "Projects",
-    "satisfaction": "Satisfaction"
+    "satisfaction": "Satisfaction",
+    "others": "Other languages"
   },
   "meet": {
     "video": "Introduction Video",
-    "title": "Meet Xavier Brucart, the heart and mind behind",
+    "title1.1": "Meet Xavier Brucart",
+    "title": "The heart and mind behind",
     "title2": "BrucarTranslations",
     "description": "Discover the passion, expertise, and dedication behind every translation. A personal look at the professional who will transform your words.",
     "watch": "Watch presentation in another language"

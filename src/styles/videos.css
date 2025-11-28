@@ -1,0 +1,139 @@
+/* ============================================
+   VIDEOS SECTION STYLES
+   ============================================ */
+
+.videos {
+  background: var(--white);
+}
+
+.videos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: var(--space-xl);
+}
+
+.video-card {
+  background: var(--white);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  transition: var(--transition-normal);
+  border: 1px solid var(--gray-100);
+}
+
+.video-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-2xl);
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: var(--transition-normal);
+  pointer-events: none;
+}
+
+.video-card:hover .video-overlay {
+  opacity: 1;
+}
+
+.play-button {
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-fast);
+  cursor: pointer;
+}
+
+.play-button:hover {
+  background: var(--white);
+  transform: scale(1.1);
+}
+
+.play-button svg {
+  width: 30px;
+  height: 30px;
+  color: var(--primary-600);
+  margin-left: 4px; /* Center the play icon visually */
+}
+
+.video-content {
+  padding: var(--space-xl);
+}
+
+.video-content h3 {
+  margin-bottom: var(--space-md);
+  color: var(--gray-900);
+  font-size: 1.25rem;
+}
+
+.video-content p {
+  margin-bottom: var(--space-lg);
+  color: var(--gray-600);
+  line-height: 1.6;
+}
+
+.video-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.video-duration {
+  background: var(--gray-100);
+  color: var(--gray-700);
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: var(--font-weight-medium);
+}
+
+.video-category {
+  background: var(--primary-100);
+  color: var(--primary-700);
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: var(--font-weight-medium);
+}
+
+/* ============================================
+   VIDEOS RESPONSIVE DESIGN
+   ============================================ */
+
+@media (max-width: 768px) {
+  .videos-grid {
+    grid-template-columns: 1fr;
+  }
+}
