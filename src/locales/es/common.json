@@ -2,7 +2,7 @@
   "nav": {
     "home": "Inicio",
     "services": "Servicios",
-    "about": "Sobre Mí",
+    "about": "Quiénes somos",
     "clients": "Clientes",
     "videos": "Videos",
     "portfolio": "Portfolio",
@@ -12,7 +12,7 @@
   "hero": {
     "translator": "Traductor Profesional Certificado",
     "connecting": "Conectando idiomas,",
-    "services": "Servicios de traducción profesional de alta calidad que preservan el significado, el tono y la intención de vuestro mensaje original.",
+    "services": "Brucartranslations, su asesor y proveedor lingüístico de confianza. Nuestra pasión por la comunicación y los idiomas nos lleva a convertir cada proyecto en un puente seguro entre culturas y lenguas.",
     "quotes": "Obtenga su presupuesto",
     "clients": "Clientes satisfechos",
     "about_us": "Sobre Nosotros",
@@ -23,10 +23,61 @@
 
   "meet": {
     "video": "Video presentación",
-    "title1.1":"Conozca a Xavier Brucart",
-    "title": "El corazón y la mente detrás de",
+    "title1.1": "Conozca a Xavier Brucart,",
+    "title": "el corazón y la mente detrás de",
     "title2": "BrucarTranslations",
-    "description": "Descubre la pasión, experiencia y dedicación que hay detrás de cada traducción. Una mirada personal al profesional que transformará tus palabras.",
+    "description": "Descubre la pasión, experiencia y dedicación que hay detrás de cada proyecto.",
+   "desc_2":" Una mirada personal al profesional que transformará tus palabras.",
     "watch": "Ver presentación en otro idioma"
+  },
+
+  "academic": {
+    "badge": "Formación Académica",
+    "title": "Trayectoria Educativa",
+    "description": "Un recorrido por mi formación académica y profesional que respalda la calidad de mis servicios de traducción.",
+    "dcu": {
+      "degree": "Máster en Traducción e Interpretación",
+      "period": "2018 - 2020",
+      "location": "Dublín, Irlanda",
+      "description": "Especialización en traducción técnica y audiovisual con enfoque en nuevas tecnologías y localización."
+    },
+    "uab": {
+      "degree": "Grado en Traducción e Interpretación",
+      "period": "2014 - 2018",
+      "location": "Barcelona, España",
+      "description": "Formación integral en traducción multilingüe con especialización en inglés, francés y catalán."
+    },
+    "laguna": {
+      "degree": "Intercambio Académico - Erasmus",
+      "period": "2017",
+      "location": "Tenerife, España",
+      "description": "Programa de intercambio enfocado en traducción jurídica y administrativa con universidades europeas."
+    },
+    "emci": {
+      "degree": "Certificación en Marketing Digital",
+      "period": "2020 - 2021",
+      "location": "París, Francia",
+      "description": "Formación complementaria en marketing digital para optimizar la comunicación multilingüe en entornos digitales."
+    },
+    "profile": {
+      "title": "El Profesional Detrás del Servicio",
+      "description": "Conoce la experiencia, metodología y filosofía de trabajo que garantizan la excelencia en cada proyecto de traducción.",
+      "professional": "Xavier Brucart",
+      "workplace": "En mi espacio de trabajo",
+      "badge": "Traductor Certificado",
+      "workspace": "Mi espacio de trabajo profesional",
+      "experience": {
+        "title": "Más de 6 Años de Experiencia",
+        "description": "Especializado en traducción técnica, jurídica y audiovisual con más de 500 proyectos completados exitosamente."
+      },
+      "specialization": {
+        "title": "Especialización Multilingüe", 
+        "description": "Dominio nativo del catalán y español, con especialización profesional en inglés y francés para mercados internacionales."
+      },
+      "approach": {
+        "title": "Metodología Personalizada",
+        "description": "Cada proyecto recibe un enfoque único, adaptado a las necesidades específicas del cliente y el contexto cultural de destino."
+      }
+    }
   }
 }

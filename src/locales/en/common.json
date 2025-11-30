@@ -2,7 +2,7 @@
   "nav": {
     "home": "Home",
     "services": "Services",
-    "about": "About Me",
+    "about": "About Us",
     "clients": "Clients",
     "videos": "Videos",
     "portfolio": "Portfolio",
@@ -12,7 +12,7 @@
   "hero": {
     "translator": "Certified Professional Translator",
     "connecting": "Connecting languages,",
-    "services": "High-quality professional translation services that preserve the meaning, tone, and intent of your original message.",
+    "services": "Brucartranslations, your trusted language advisor and provider. Our passion for communication and languages drives us to turn every project into a secure bridge between cultures and tongues.",
     "quotes": "Get your quote",
     "clients": "Satisfied clients",
     "about_us": "About Us",
@@ -22,10 +22,61 @@
   },
   "meet": {
     "video": "Introduction Video",
-    "title1.1": "Meet Xavier Brucart",
-    "title": "The heart and mind behind",
+    "title1.1": "Meet Xavier Brucart,",
+    "title": "the heart and mind behind",
     "title2": "BrucarTranslations",
-    "description": "Discover the passion, expertise, and dedication behind every translation. A personal look at the professional who will transform your words.",
+    "description": "Discover the passion, expertise, and dedication behind every project.",
+    "desc_2": "A personal look at the professional who will transform your words.",
     "watch": "Watch presentation in another language"
+  },
+
+  "academic": {
+    "badge": "Academic Training",
+    "title": "Educational Journey",
+    "description": "A journey through my academic and professional training that supports the quality of my translation services.",
+    "dcu": {
+      "degree": "Master's in Translation and Interpretation",
+      "period": "2018 - 2020",
+      "location": "Dublin, Ireland",
+      "description": "Specialization in technical and audiovisual translation with focus on new technologies and localization."
+    },
+    "uab": {
+      "degree": "Bachelor's in Translation and Interpretation",
+      "period": "2014 - 2018",
+      "location": "Barcelona, Spain",
+      "description": "Comprehensive training in multilingual translation with specialization in English, French, and Catalan."
+    },
+    "laguna": {
+      "degree": "Academic Exchange - Erasmus",
+      "period": "2017",
+      "location": "Tenerife, Spain",
+      "description": "Exchange program focused on legal and administrative translation with European universities."
+    },
+    "emci": {
+      "degree": "Digital Marketing Certification",
+      "period": "2020 - 2021",
+      "location": "Paris, France",
+      "description": "Complementary training in digital marketing to optimize multilingual communication in digital environments."
+    },
+    "profile": {
+      "title": "The Professional Behind the Service",
+      "description": "Meet the experience, methodology, and work philosophy that guarantee excellence in every translation project.",
+      "professional": "Xavier Brucart",
+      "workplace": "In my workspace",
+      "badge": "Certified Translator",
+      "workspace": "My professional workspace",
+      "experience": {
+        "title": "Over 6 Years of Experience",
+        "description": "Specialized in technical, legal, and audiovisual translation with over 500 successfully completed projects."
+      },
+      "specialization": {
+        "title": "Multilingual Specialization",
+        "description": "Native proficiency in Catalan and Spanish, with professional specialization in English and French for international markets."
+      },
+      "approach": {
+        "title": "Personalized Methodology",
+        "description": "Every project receives a unique approach, tailored to the specific needs of the client and the cultural context of the target market."
+      }
+    }
   }
 }

@@ -11,6 +11,7 @@ import Portfolio from "./components/Portfolio";
 import Videos from "./components/Videos";
 import { useTranslation } from "react-i18next";
 import VideoPresentation from "./components/VideoPesentation";
+import AcademicTraining from "./components/AcademicTraining";
 
 export type ComponenteParams = {
   t: (key: string) => string;
@@ -23,7 +24,8 @@ function App() {
       <Navbar />
       <Hero t={t} />
       <VideoPresentation t={t} />
-      <Services />
+      <AcademicTraining t={t} />
+      {/* <Services /> */}
       {/* <About />
       <Videos />
       <Portfolio />

@@ -54,6 +54,7 @@ const VideoPresentation: FC<ComponenteParams> = ({ t }) => {
             <span className="gradient-text">{t("meet.title2")}</span>
           </h2>
           <p className="section-description">{t("meet.description")}</p>
+           <p className="section-description">{t("meet.desc_2")}</p>
         </div>
 
         <div className="video-card">
