@@ -4,11 +4,8 @@ import "./App.css";
 import Navbar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
-import About from "./components/About";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Portfolio from "./components/Portfolio";
-import Videos from "./components/Videos";
+import Clients from "./components/Clients";
 import { useTranslation } from "react-i18next";
 import VideoPresentation from "./components/VideoPesentation";
 import AcademicTraining from "./components/AcademicTraining";
@@ -25,11 +22,8 @@ function App() {
       <Hero t={t} />
       <VideoPresentation t={t} />
       <AcademicTraining t={t} />
-      {/* <Services /> */}
-      {/* <About />
-      <Videos />
-      <Portfolio />
-      <Contact /> */}
+      <Services />
+      <Clients />
       <Footer />
     </div>
   );

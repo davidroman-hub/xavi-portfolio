@@ -6,10 +6,32 @@
   background: var(--gray-50);
 }
 
+.services-image {
+  margin-top: var(--space-xl);
+  display: flex;
+  justify-content: center;
+}
+
+.services-image img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-lg);
+  transition: var(--transition-normal);
+}
+
+.services-image img:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+}
+
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: var(--space-xl);
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .service-card {
@@ -95,15 +117,164 @@
 }
 
 /* ============================================
+   INTERPRETATION MODES SECTION
+   ============================================ */
+
+.interpretation-card {
+  position: relative;
+}
+
+.interpretation-details-btn {
+  width: 100%;
+  margin-top: var(--space-md);
+  padding: 0.75rem 1.5rem;
+  background: var(--primary-600);
+  color: var(--white);
+  border: none;
+  border-radius: var(--radius-lg);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.interpretation-details-btn:hover {
+  background: var(--primary-700);
+  transform: translateY(-2px);
+}
+
+.interpretation-modes-section {
+  margin-top: var(--space-3xl);
+  padding: var(--space-3xl) 0;
+}
+
+.interpretation-header {
+  text-align: center;
+  margin-bottom: var(--space-3xl);
+}
+
+.interpretation-header h3 {
+  color: var(--gray-900);
+  font-size: 1.875rem;
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--space-md);
+}
+
+.interpretation-header p {
+  color: var(--gray-600);
+  font-size: 1.125rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.interpretation-modes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-xl);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Las tarjetas de interpretación usan los mismos estilos que service-card */
+.interpretation-mode-icon {
+  font-size: 2.5rem;
+  background: var(--primary-100);
+}
+
+.interpretation-languages {
+  margin-top: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--gray-50);
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  color: var(--gray-700);
+  border-left: 3px solid var(--primary-500);
+}
+
+.get-quote-btn {
+  width: 100%;
+  margin-top: var(--space-lg);
+  padding: 0.875rem 1.5rem;
+  background: var(--gradient-primary);
+  color: var(--white);
+  border: none;
+  border-radius: var(--radius-lg);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  transition: var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+}
+
+.get-quote-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* ============================================
    SERVICES RESPONSIVE DESIGN
    ============================================ */
 
 @media (max-width: 768px) {
   .services-grid {
     grid-template-columns: 1fr;
+    max-width: none;
   }
 
   .service-card.featured {
     transform: none;
+  }
+
+  .services-image img {
+    max-width: 300px;
+  }
+}
+
+  .interpretation-modes-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+    max-width: none;
+  }
+
+  .interpretation-header h3 {
+    font-size: 1.25rem;
+  }
+
+  .mode-header {
+    gap: var(--space-xs);
+  }
+
+  .mode-header h4 {
+    font-size: 1rem;
+  }
+
+  .languages-list {
+    flex-direction: column;
+  }
+
+
+@media (max-width: 480px) {
+  .interpretation-modes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .interpretation-mode-card {
+    padding: var(--space-md);
+  }
+
+  .mode-header h4 {
+    font-size: 0.95rem;
+  }
+
+  .mode-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 1.25rem;
+  }
+
+  .services-image img {
+    max-width: 250px;
+  }
+
+  .mode-description {
+    font-size: 0.85rem;
   }
 }

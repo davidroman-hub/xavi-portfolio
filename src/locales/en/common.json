@@ -78,5 +78,183 @@
         "description": "Every project receives a unique approach, tailored to the specific needs of the client and the cultural context of the target market."
       }
     }
+  },
+
+  "services": {
+    "badge": "Services",
+    "title": "Translation solutions for every need",
+    "description": "I offer specialized services adapted to different sectors and types of content",
+    "mostPopular": "Most Popular",
+    "requestQuote": "Request Quote",
+    "documents": {
+      "title": "Document Translation",
+      "description": "Contracts, certificates, technical manuals and official documentation with absolute precision.",
+      "features": [
+        "Official certification",
+        "Original format preserved",
+        "Revision included"
+      ]
+    },
+    "webMarketing": {
+      "title": "Web & Marketing Translation",
+      "description": "Websites, advertising campaigns and marketing content that connects with your global audience.",
+      "features": [
+        "SEO optimized",
+        "Cultural adaptation",
+        "Creative copywriting"
+      ]
+    },
+    "interpretation": {
+      "title": "Interpretation",
+      "description": "Professional interpretation services for different modalities and communication needs.",
+      "features": [
+        "4 available modalities",
+        "Equipment included",
+        "Multilingual coverage"
+      ],
+      "showModes": "View available modalities",
+      "hideModes": "Hide modalities",
+      "modesTitle": "Available Interpretation Modalities",
+      "modesSubtitle": "Choose the mode that best suits your needs",
+      "multilingualAvailable": "Multilingual available",
+      "languages": "Languages",
+      "modes": {
+        "simultaneous": {
+          "name": "Simultaneous",
+          "description": "Ideal for meetings and conferences with large audiences. Requires technical equipment, includes interpretation booths, corresponding consoles, and sound systems, as well as headphones for listeners.",
+          "pros": [
+            "Fast and fluid service"
+          ],
+          "cons": [
+            "High cost and requires infrastructure"
+          ]
+        },
+        "consecutive": {
+          "name": "Consecutive",
+          "description": "In this mode, no booths or infrastructure are needed. The interpreter takes notes during the speech and then transmits the message to the listener in the target language.",
+          "pros": [
+            "No infrastructure required, lower cost"
+          ],
+          "cons": [
+            "Slower communication compared to simultaneous interpretation"
+          ]
+        },
+        "liaison": {
+          "name": "Liaison or Bilateral",
+          "description": "In liaison or bilateral interpretation, the interpreter will interpret between two active parties. Unlike other modes, the interpreter must interpret from one language to another, in bilateral mode it is required that the interpreter excels in expressing themselves in both languages."
+        },
+        "remote": {
+          "name": "Remote Simultaneous",
+          "description": "This mode has gained popularity due to the COVID-19 pandemic, which forced many meetings to be held remotely. It involves simultaneous interpretation performed through video call platforms, such as Zoom.",
+          "pros": [
+            "Avoids the need to travel and invest in infrastructure"
+          ],
+          "cons": [
+            "Possible technical or connection problems, less reliable"
+          ]
+        }
+      }
+    },
+    "localization": {
+      "title": "Localization",
+      "description": "Complete adaptation of software, applications and digital content for specific markets.",
+      "features": [
+        "Software & Apps",
+        "Video games",
+        "Cultural adaptation"
+      ]
+    },
+    "languageLessons": {
+      "title": "Language Lessons",
+      "description": "Personalized English, French and Catalan classes adapted to your level and specific objectives.",
+      "features": [
+        "Individual classes",
+        "Personalized methodology",
+        "Schedule flexibility"
+      ]
+    }
+  },
+
+  "clients": {
+    "title": "Our Clients & Projects",
+    "subtitle": "This section showcases a list of clients with whom Brucart Translations has worked on significant projects. It details the type of work performed for each client, providing context on how our services have helped fulfill their specific objectives and needs. Projects include both translation and interpretation assignments.",
+    "trustedBy": "Trusted by Leading Organizations",
+    "clickToLearnMore": "Click on any logo to learn more about our collaboration",
+    "clickToSeeProject": "Click to see project details",
+    "servicesProvided": "Services Provided:",
+    "stats": {
+      "projects": "Projects Completed",
+      "clients": "Satisfied Clients", 
+      "languages": "Languages Covered",
+      "years": "Years Experience"
+    },
+    "projects": {
+      "who": {
+        "name": "World Health Organization",
+        "project": "Simultaneous interpretation for Monkeypox Webinars",
+        "description": "We acted as interpreters at webinars about monkeypox organised by the World Health Organization (WHO). Our interpretation contributed to effective communication at global health events, ensuring accuracy and clarity in the transmission of critical information.",
+        "services": ["Simultaneous Interpretation", "Health Communications", "Global Events"]
+      },
+      "gsk": {
+        "name": "GSK",
+        "project": "Interpretation at Corporate Events",
+        "description": "We provided interpretation at online events for GSK, aimed to strengthen disease advocacy and awareness. We facilitated effective interaction between participants from various regions. The main challenge in this project was to faithfully reflect the emotions of the speakers, who were telling their unpleasant experiences going through serious conditions, such as meningitis.",
+        "services": ["Corporate Events", "Health Advocacy", "Online Interpretation"]
+      },
+      "ffpp": {
+        "name": "World Forum of Fisher Peoples",
+        "project": "Interpretation at the World Forum of Fisher Peoples 2019",
+        "description": "We participated as interpreters at the World Forum of Fisher Peoples in Sri Lanka 2019. Our interpretation facilitated dialogue among international delegates, promoting global cooperation and the exchange of knowledge among fishing communities worldwide.",
+        "services": ["International Forums", "Consecutive Interpretation", "Cultural Exchange"]
+      },
+      "mapfre": {
+        "name": "Mapfre",
+        "project": "Interpretation at Corporate and Economic Events",
+        "description": "We provided simultaneous interpretation services online for Mapfre's internal audit seminars. As one of the leading companies in the insurance and reinsurance sector in Spain and Europe, Mapfre's internal audit seminars featured highly technical discussions requiring precise and accurate interpretation. Our thorough preparation allowed us to navigate the complexity of financial and auditing terminology.",
+        "services": ["Financial Services", "Internal Audits", "Technical Interpretation"]
+      },
+      "forvia": {
+        "name": "Forvia",
+        "project": "Simultaneous Interpretation at Internal Meetings",
+        "description": "We offered interpretation at internal meetings between Spain and France for Forvia, supporting bilateral communication in a multinational business environment. Our work facilitated effective coordination between teams from different countries, contributing to the success of internal meetings.",
+        "services": ["Internal Meetings", "Bilateral Interpretation", "Corporate Communications"]
+      },
+      "embratur": {
+        "name": "Embratur - Brazil Tourism",
+        "project": "Interpretation for the Brazil Pavilion at Fitur Madrid 2024",
+        "description": "We provided consecutive interpretation at various cultural events organised at the Brazil Pavilion at Fitur Madrid 2024, such as caipirinha and Brazilian cuisine masterclasses. Our work helped promote Brazil's representation at this major international event, facilitating interaction with visitors and representatives from around the world.",
+        "services": ["Cultural Events", "Tourism Promotion", "Consecutive Interpretation"]
+      },
+      "unicaja": {
+        "name": "Unicaja Bank",
+        "project": "Website Translation into Catalan",
+        "description": "Unicaja, one of Spain's leading banks, sought to embrace the linguistic diversity of its clientele by ensuring its Catalan-speaking clients felt valued and understood. We undertook the complete translation of their website into Catalan, delivering precise and culturally appropriate financial content. This project was pivotal in enhancing accessibility and fostering stronger connections with their clients in Catalonia.",
+        "services": ["Website Translation", "Financial Content", "Catalan Localization"]
+      },
+      "structuralia": {
+        "name": "Structuralia",
+        "project": "Educational Platform Localization",
+        "description": "We provided comprehensive translation and localization services for Structuralia, a leading online education platform specializing in construction, engineering, and architecture courses. Our work included translating technical content, course materials, and platform interface to ensure accessibility for international students.",
+        "services": ["Technical Translation", "E-learning Content", "Platform Localization"]
+      },
+      "tradumedia": {
+        "name": "Tradumedia",
+        "project": "Translation Services Collaboration",
+        "description": "We established a strategic partnership with Tradumedia, providing specialized translation services for their diverse client portfolio. This collaboration allowed us to expand our reach while maintaining our high-quality standards in technical and specialized translations.",
+        "services": ["Partnership Services", "Technical Translation", "Quality Assurance"]
+      },
+      "claire": {
+        "name": "Claire's",
+        "project": "Retail Content Translation",
+        "description": "We provided translation services for Claire's retail operations, focusing on product descriptions, marketing materials, and customer communications. Our work helped Claire's expand their presence in Spanish-speaking markets while maintaining brand consistency.",
+        "services": ["Retail Translation", "Marketing Content", "Brand Localization"]
+      },
+      "dbarcelona": {
+        "name": "Diputació de Barcelona",
+        "project": "Government Document Translation",
+        "description": "We provided official translation services for the Diputació de Barcelona, handling administrative documents, public communications, and official correspondence. Our certified translations ensured compliance with legal requirements and facilitated communication between different linguistic communities.",
+        "services": ["Official Translation", "Government Documents", "Certified Translation"]
+      }
+    }
   }
 }

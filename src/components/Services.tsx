@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
+
+import XaviInwork from "../assets/xavi.png";
 
 const Services = () => {
+  const { t } = useTranslation();
+  const [selectedInterpretation, setSelectedInterpretation] = useState<
+    string | null
+  >("open");
   const services = [
     {
       icon: (
@@ -17,13 +24,15 @@ const Services = () => {
           <polyline points="10,9 9,9 8,9" />
         </svg>
       ),
-      title: "Traducción de Documentos",
-      description:
-        "Contratos, certificados, manuales técnicos y documentación oficial con precisión absoluta.",
+      title: t("services.documents.title", "Traducción de Documentos"),
+      description: t(
+        "services.documents.description",
+        "Contratos, certificados, manuales técnicos y documentación oficial con precisión absoluta."
+      ),
       features: [
-        "Certificación oficial",
-        "Formato original preservado",
-        "Revisión incluida",
+        t("services.documents.features.0", "Certificación oficial"),
+        t("services.documents.features.1", "Formato original preservado"),
+        t("services.documents.features.2", "Revisión incluida"),
       ],
       featured: false,
     },
@@ -40,13 +49,15 @@ const Services = () => {
           <line x1="12" y1="17" x2="12" y2="21" />
         </svg>
       ),
-      title: "Traducción Web & Marketing",
-      description:
-        "Sitios web, campañas publicitarias y contenido de marketing que conecta con tu audiencia global.",
+      title: t("services.webMarketing.title", "Traducción Web & Marketing"),
+      description: t(
+        "services.webMarketing.description",
+        "Sitios web, campañas publicitarias y contenido de marketing que conecta con tu audiencia global."
+      ),
       features: [
-        "SEO optimizado",
-        "Adaptación cultural",
-        "Copywriting creativo",
+        t("services.webMarketing.features.0", "SEO optimizado"),
+        t("services.webMarketing.features.1", "Adaptación cultural"),
+        t("services.webMarketing.features.2", "Copywriting creativo"),
       ],
       featured: true,
     },
@@ -64,15 +75,137 @@ const Services = () => {
           <path d="M16 3.13a4 4 0 0 1 0 7.75" />
         </svg>
       ),
-      title: "Interpretación",
-      description:
-        "Servicios de interpretación simultánea y consecutiva para eventos, reuniones y conferencias.",
+      title: t("services.interpretation.title", "Interpretación"),
+      description: t(
+        "services.interpretation.description",
+        "Servicios de interpretación profesional para diferentes modalidades y necesidades de comunicación."
+      ),
       features: [
-        "Interpretación simultánea",
-        "Eventos corporativos",
-        "Reuniones online",
+        t("services.interpretation.features.0", "4 modalidades disponibles"),
+        t("services.interpretation.features.1", "Equipamiento incluido"),
+        t("services.interpretation.features.2", "Cobertura multilingüe"),
       ],
       featured: false,
+      interpretationModes: [
+        {
+          id: "simultaneous",
+          icon: "🎧",
+          name: t(
+            "services.interpretation.modes.simultaneous.name",
+            "Simultánea"
+          ),
+          description: t(
+            "services.interpretation.modes.simultaneous.description",
+            "Ideal para reuniones y conferencias con gran audiencia. Requiere equipo técnico, incluye cabinas de interpretación, consolas correspondientes, y sistemas de sonido, así como auriculares para los oyentes."
+          ),
+          pros: [
+            t(
+              "services.interpretation.modes.simultaneous.pros.0",
+              "Servicio rápido y fluido"
+            ),
+          ],
+          cons: [
+            t(
+              "services.interpretation.modes.simultaneous.cons.0",
+              "Alto costo y necesita infraestructura"
+            ),
+          ],
+          languages: [
+            "Catalán",
+            "Español",
+            "Inglés",
+            "Francés",
+            "Portugués",
+            "Otros idiomas bajo petición",
+          ],
+        },
+        {
+          id: "consecutive",
+          icon: "📝",
+          name: t(
+            "services.interpretation.modes.consecutive.name",
+            "Consecutiva"
+          ),
+          description: t(
+            "services.interpretation.modes.consecutive.description",
+            "En este modo, no se necesitan cabinas ni infraestructura. El intérprete toma notas durante el discurso y luego transmite el mensaje al oyente en el idioma de destino."
+          ),
+          pros: [
+            t(
+              "services.interpretation.modes.consecutive.pros.0",
+              "No requiere infraestructura, menor costo"
+            ),
+          ],
+          cons: [
+            t(
+              "services.interpretation.modes.consecutive.cons.0",
+              "Comunicación más lenta comparada con interpretación simultánea"
+            ),
+          ],
+          languages: [
+            "Catalán",
+            "Español",
+            "Inglés",
+            "Francés",
+            "Portugués",
+            "Otros idiomas bajo petición",
+          ],
+        },
+        {
+          id: "liaison",
+          icon: "🔄",
+          name: t(
+            "services.interpretation.modes.liaison.name",
+            "Enlace o Bilateral"
+          ),
+          description: t(
+            "services.interpretation.modes.liaison.description",
+            "En interpretación de enlace o bilateral, el intérprete interpretará entre dos partes activas. A diferencia de otros modos, el intérprete debe interpretar de un idioma al otro, en el modo bilateral se requiere que el intérprete sobresalga en expresarse en ambos idiomas."
+          ),
+          pros: [],
+          cons: [],
+          languages: [
+            "Catalán",
+            "Español",
+            "Inglés",
+            "Francés",
+            "Portugués",
+            "Otros idiomas bajo petición",
+          ],
+        },
+        {
+          id: "remote",
+          icon: "💻",
+          name: t(
+            "services.interpretation.modes.remote.name",
+            "Simultánea Remota"
+          ),
+          description: t(
+            "services.interpretation.modes.remote.description",
+            "Este modo ha ganado popularidad debido a la pandemia de COVID-19, que obligó a muchas reuniones a realizarse de forma remota. Implica interpretación simultánea realizada a través de plataformas de videollamada, como Zoom."
+          ),
+          pros: [
+            t(
+              "services.interpretation.modes.remote.pros.0",
+              "Evita la necesidad de viajar e invertir en infraestructura"
+            ),
+          ],
+          cons: [
+            t(
+              "services.interpretation.modes.remote.cons.0",
+              "Posibles problemas técnicos o de conexión, menos confiable"
+            ),
+          ],
+          languages: [
+            "Catalán",
+            "Español",
+            "Inglés",
+            "Francés",
+            "Portugués",
+            "Otros idiomas bajo petición",
+          ],
+        },
+      ],
     },
     {
       icon: (
@@ -86,10 +219,45 @@ const Services = () => {
           <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
         </svg>
       ),
-      title: "Localización",
-      description:
-        "Adaptación completa de software, aplicaciones y contenido digital para mercados específicos.",
-      features: ["Software & Apps", "Videojuegos", "Adaptación cultural"],
+      title: t("services.localization.title", "Localización"),
+      description: t(
+        "services.localization.description",
+        "Adaptación completa de software, aplicaciones y contenido digital para mercados específicos."
+      ),
+      features: [
+        t("services.localization.features.0", "Software & Apps"),
+        t("services.localization.features.1", "Videojuegos"),
+        t("services.localization.features.2", "Adaptación cultural"),
+      ],
+      featured: false,
+    },
+    {
+      icon: (
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+        >
+          <path d="M12 14l9-5-9-5-9 5 9 5z" />
+          <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+          />
+        </svg>
+      ),
+      title: t("services.languageLessons.title", "Clases de Idiomas"),
+      description: t(
+        "services.languageLessons.description",
+        "Clases personalizadas de inglés, francés y catalán adaptadas a tu nivel y objetivos específicos."
+      ),
+      features: [
+        t("services.languageLessons.features.0", "Clases individuales"),
+        t("services.languageLessons.features.1", "Metodología personalizada"),
+        t("services.languageLessons.features.2", "Flexibilidad horaria"),
+      ],
       featured: false,
     },
   ];
@@ -98,13 +266,20 @@ const Services = () => {
     <section id="servicios" className="services">
       <div className="container">
         <div className="section-header">
-          <span className="section-badge">Servicios</span>
+          <span className="section-badge">
+            {t("services.badge", "Servicios")}
+          </span>
           <h2 className="section-title">
-            Soluciones de traducción para cada necesidad
+            {t(
+              "services.title",
+              "Soluciones de traducción para cada necesidad"
+            )}
           </h2>
           <p className="section-description">
-            Ofrezco servicios especializados adaptados a diferentes sectores y
-            tipos de contenido
+            {t(
+              "services.description",
+              "Ofrezco servicios especializados adaptados a diferentes sectores y tipos de contenido"
+            )}
           </p>
         </div>
 
@@ -112,10 +287,14 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className={`service-card ${service.featured ? "featured" : ""}`}
+              className={`service-card ${service.featured ? "featured" : ""} ${
+                service.title === "Interpretación" ? "interpretation-card" : ""
+              }`}
             >
               {service.featured && (
-                <div className="service-badge">Más Popular</div>
+                <div className="service-badge">
+                  {t("services.mostPopular", "Más Popular")}
+                </div>
               )}
               <div className="service-icon">{service.icon}</div>
               <h3>{service.title}</h3>
@@ -125,9 +304,91 @@ const Services = () => {
                   <li key={featureIndex}>{feature}</li>
                 ))}
               </ul>
+
+              {/* {service.title === t('services.interpretation.title', 'Interpretación') && (
+                <button
+                  className="interpretation-details-btn"
+                  onClick={() =>
+                    setSelectedInterpretation(
+                      selectedInterpretation ? null : "open"
+                    )
+                  }
+                >
+                  {selectedInterpretation
+                    ? t('services.interpretation.hideModes', 'Ocultar modalidades')
+                    : t('services.interpretation.showModes', 'Ver modalidades disponibles')}
+                </button>
+              )} */}
             </div>
           ))}
         </div>
+
+        {
+          <div className="interpretation-modes-section">
+            <div className="interpretation-header">
+              <h3>
+                {t(
+                  "services.interpretation.modesTitle",
+                  "Modalidades de Interpretación Disponibles"
+                )}
+              </h3>
+              <p>
+                {t(
+                  "services.interpretation.modesSubtitle",
+                  "Elige el modo que mejor se adapte a tus necesidades"
+                )}
+              </p>
+              <div className="services-image">
+                <img src={XaviInwork} alt="Xavier Brucart trabajando" />
+              </div>
+            </div>
+            <div className="interpretation-modes-grid">
+              {services
+                .find((s) => s.title === t("services.interpretation.title", "Interpretación"))
+                ?.interpretationModes?.map((mode, index) => (
+                  <div
+                    key={mode.id}
+                    className={`service-card interpretation-mode-card`}
+                  >
+                    <div className="service-icon interpretation-mode-icon">
+                      {mode.icon}
+                    </div>
+                    <h3>{mode.name}</h3>
+                    <p>{mode.description}</p>
+
+                    <ul className="service-features">
+                      {mode.pros.map((pro, proIndex) => (
+                        <li key={`pro-${proIndex}`}>✅ {pro}</li>
+                      ))}
+                      {mode.cons.map((con, conIndex) => (
+                        <li key={`con-${conIndex}`}>⚠️ {con}</li>
+                      ))}
+                      <li>
+                        🌐{" "}
+                        {t(
+                          "services.interpretation.multilingualAvailable",
+                          "Multilingüe disponible"
+                        )}
+                      </li>
+                    </ul>
+
+                    <div className="interpretation-languages">
+                      <strong>
+                        {t("services.interpretation.languages", "Idiomas")}:
+                      </strong>{" "}
+                      {mode.languages.slice(0, 3).join(", ")}
+                      {mode.languages.length > 3 &&
+                        ` +${mode.languages.length - 3} más`}
+                    </div>
+
+                    <button className="get-quote-btn">
+                      {t("services.requestQuote", "Solicitar Cotización")}
+                    </button>
+                  </div>
+                ))}
+            </div>
+          </div>
+        }
       </div>
     </section>
   );

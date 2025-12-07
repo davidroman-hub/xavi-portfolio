@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "clients": "Clients",
+    "videos": "Vidéos",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+
+  "services": {
+    "badge": "Services",
+    "title": "Solutions de traduction pour chaque besoin",
+    "description": "J'offre des services spécialisés adaptés à différents secteurs et types de contenu",
+    "mostPopular": "Plus Populaire",
+    "requestQuote": "Demander un Devis",
+    "documents": {
+      "title": "Traduction de Documents",
+      "description": "Contrats, certificats, manuels techniques et documentation officielle avec une précision absolue.",
+      "features": [
+        "Certification officielle",
+        "Format original préservé",
+        "Révision incluse"
+      ]
+    },
+    "webMarketing": {
+      "title": "Traduction Web & Marketing",
+      "description": "Sites web, campagnes publicitaires et contenu marketing qui se connectent avec votre audience mondiale.",
+      "features": [
+        "Optimisé pour le SEO",
+        "Adaptation culturelle",
+        "Rédaction créative"
+      ]
+    },
+    "interpretation": {
+      "title": "Interprétation",
+      "description": "Services d'interprétation professionnels pour différentes modalités et besoins de communication.",
+      "features": [
+        "4 modalités disponibles",
+        "Équipement inclus",
+        "Couverture multilingue"
+      ],
+      "showModes": "Voir les modalités disponibles",
+      "hideModes": "Masquer les modalités",
+      "modesTitle": "Modalités d'Interprétation Disponibles",
+      "modesSubtitle": "Choisissez le mode qui convient le mieux à vos besoins",
+      "multilingualAvailable": "Multilingue disponible",
+      "languages": "Langues",
+      "modes": {
+        "simultaneous": {
+          "name": "Simultanée",
+          "description": "Idéale pour les réunions et conférences avec un large public. Nécessite un équipement technique, comprend des cabines d'interprétation, des consoles correspondantes, et des systèmes audio, ainsi que des écouteurs pour les auditeurs.",
+          "pros": [
+            "Service rapide et fluide"
+          ],
+          "cons": [
+            "Coût élevé et nécessite une infrastructure"
+          ]
+        },
+        "consecutive": {
+          "name": "Consécutive",
+          "description": "Dans ce mode, aucune cabine ni infrastructure n'est nécessaire. L'interprète prend des notes pendant le discours puis transmet le message à l'auditeur dans la langue cible.",
+          "pros": [
+            "Aucune infrastructure requise, coût moindre"
+          ],
+          "cons": [
+            "Communication plus lente comparée à l'interprétation simultanée"
+          ]
+        },
+        "liaison": {
+          "name": "Liaison ou Bilatérale",
+          "description": "En interprétation de liaison ou bilatérale, l'interprète interprétera entre deux parties actives. Contrairement aux autres modes, l'interprète doit interpréter d'une langue à l'autre, en mode bilatéral il est requis que l'interprète excelle à s'exprimer dans les deux langues."
+        },
+        "remote": {
+          "name": "Simultanée à Distance",
+          "description": "Ce mode a gagné en popularité en raison de la pandémie de COVID-19, qui a obligé de nombreuses réunions à se tenir à distance. Il implique une interprétation simultanée réalisée via des plateformes d'appel vidéo, comme Zoom.",
+          "pros": [
+            "Évite le besoin de voyager et d'investir dans l'infrastructure"
+          ],
+          "cons": [
+            "Problèmes techniques ou de connexion possibles, moins fiable"
+          ]
+        }
+      }
+    },
+    "localization": {
+      "title": "Localisation",
+      "description": "Adaptation complète de logiciels, applications et contenu numérique pour des marchés spécifiques.",
+      "features": [
+        "Logiciels & Applications",
+        "Jeux vidéo",
+        "Adaptation culturelle"
+      ]
+    },
+    "languageLessons": {
+      "title": "Cours de Langues",
+      "description": "Cours personnalisés d'anglais, français et catalan adaptés à votre niveau et objectifs spécifiques.",
+      "features": [
+        "Cours individuels",
+        "Méthodologie personnalisée",
+        "Flexibilité d'horaires"
+      ]
+    }
+  },
+
+  "clients": {
+    "title": "Nos Clients et Projets",
+    "subtitle": "Cette section présente une liste de clients avec lesquels Brucart Translations a travaillé sur des projets significatifs. Elle détaille le type de travail effectué pour chaque client, fournissant le contexte sur la façon dont nos services ont aidé à répondre à leurs objectifs et besoins spécifiques. Les projets incluent des missions de traduction et d'interprétation.",
+    "trustedBy": "Fait Confiance par des Organisations de Premier Plan",
+    "clickToLearnMore": "Cliquez sur n'importe quel logo pour en savoir plus sur notre collaboration",
+    "clickToSeeProject": "Cliquez pour voir les détails du projet",
+    "servicesProvided": "Services Fournis:",
+    "stats": {
+      "projects": "Projets Terminés",
+      "clients": "Clients Satisfaits",
+      "languages": "Langues Couvertes",
+      "years": "Années d'Expérience"
+    },
+    "projects": {
+      "who": {
+        "name": "Organisation Mondiale de la Santé",
+        "project": "Interprétation simultanée pour les webinaires sur la variole du singe",
+        "description": "Nous avons agi comme interprètes lors de webinaires sur la variole du singe organisés par l'Organisation Mondiale de la Santé (OMS). Notre interprétation a contribué à une communication efficace lors d'événements de santé mondiale, assurant précision et clarté dans la transmission d'informations critiques.",
+        "services": ["Interprétation Simultanée", "Communications Santé", "Événements Mondiaux"]
+      },
+      "gsk": {
+        "name": "GSK",
+        "project": "Interprétation lors d'Événements Corporatifs",
+        "description": "Nous avons fourni des services d'interprétation lors d'événements en ligne pour GSK, visant à renforcer la sensibilisation et la défense contre les maladies. Nous avons facilité l'interaction efficace entre participants de diverses régions. Le principal défi de ce projet était de refléter fidèlement les émotions des orateurs, qui racontaient leurs expériences désagréables en traversant des conditions graves, comme la méningite.",
+        "services": ["Événements Corporatifs", "Défense de la Santé", "Interprétation En Ligne"]
+      },
+      "ffpp": {
+        "name": "Forum Mondial des Peuples Pêcheurs",
+        "project": "Interprétation au Forum Mondial des Peuples Pêcheurs 2019",
+        "description": "Nous avons participé comme interprètes au Forum Mondial des Peuples Pêcheurs au Sri Lanka en 2019. Notre interprétation a facilité le dialogue entre les délégués internationaux, promouvant la coopération mondiale et l'échange de connaissances entre les communautés de pêcheurs du monde entier.",
+        "services": ["Forums Internationaux", "Interprétation Consécutive", "Échange Culturel"]
+      },
+      "mapfre": {
+        "name": "Mapfre",
+        "project": "Interprétation lors d'Événements Corporatifs et Économiques",
+        "description": "Nous avons fourni des services d'interprétation simultanée en ligne pour les séminaires d'audit interne de Mapfre. En tant que l'une des entreprises leaders du secteur de l'assurance et de la réassurance en Espagne et en Europe, les séminaires d'audit interne de Mapfre présentaient des discussions hautement techniques nécessitant une interprétation précise et exacte. Notre préparation approfondie nous a permis de naviguer dans la complexité de la terminologie financière et d'audit.",
+        "services": ["Services Financiers", "Audits Internes", "Interprétation Technique"]
+      },
+      "forvia": {
+        "name": "Forvia",
+        "project": "Interprétation Simultanée lors de Réunions Internes",
+        "description": "Nous avons offert des services d'interprétation lors de réunions internes entre l'Espagne et la France pour Forvia, soutenant la communication bilatérale dans un environnement commercial multinational. Notre travail a facilité la coordination efficace entre équipes de différents pays, contribuant au succès des réunions internes.",
+        "services": ["Réunions Internes", "Interprétation Bilatérale", "Communications Corporatives"]
+      },
+      "embratur": {
+        "name": "Embratur - Tourisme du Brésil",
+        "project": "Interprétation pour le Pavillon du Brésil à Fitur Madrid 2024",
+        "description": "Nous avons fourni une interprétation consécutive lors de divers événements culturels organisés au Pavillon du Brésil à Fitur Madrid 2024, tels que des cours de maître de caipirinha et de cuisine brésilienne. Notre travail a aidé à promouvoir la représentation du Brésil lors de cet événement international majeur, facilitant l'interaction avec les visiteurs et représentants du monde entier.",
+        "services": ["Événements Culturels", "Promotion Touristique", "Interprétation Consécutive"]
+      },
+      "unicaja": {
+        "name": "Banque Unicaja",
+        "project": "Traduction de Site Web en Catalan",
+        "description": "Unicaja, l'une des banques leaders d'Espagne, a cherché à embrasser la diversité linguistique de sa clientèle en s'assurant que ses clients de langue catalane se sentent valorisés et compris. Nous avons entrepris la traduction complète de leur site web en catalan, livrant un contenu financier précis et culturellement approprié. Ce projet a été crucial pour améliorer l'accessibilité et favoriser des connexions plus fortes avec leurs clients en Catalogne.",
+        "services": ["Traduction Web", "Contenu Financier", "Localisation Catalane"]
+      },
+      "structuralia": {
+        "name": "Structuralia",
+        "project": "Localisation de Plateforme Éducative",
+        "description": "Nous avons fourni des services complets de traduction et localisation pour Structuralia, une plateforme leader d'éducation en ligne spécialisée dans les cours de construction, ingénierie et architecture. Notre travail a inclus la traduction de contenu technique, matériels de cours et interface de plateforme pour assurer l'accessibilité aux étudiants internationaux.",
+        "services": ["Traduction Technique", "Contenu E-learning", "Localisation de Plateforme"]
+      },
+      "tradumedia": {
+        "name": "Tradumedia",
+        "project": "Collaboration en Services de Traduction",
+        "description": "Nous avons établi un partenariat stratégique avec Tradumedia, fournissant des services de traduction spécialisés pour leur portefeuille diversifié de clients. Cette collaboration nous a permis d'étendre notre portée tout en maintenant nos hauts standards de qualité dans les traductions techniques et spécialisées.",
+        "services": ["Services de Partenariat", "Traduction Technique", "Assurance Qualité"]
+      },
+      "claire": {
+        "name": "Claire's",
+        "project": "Traduction de Contenu Retail",
+        "description": "Nous avons fourni des services de traduction pour les opérations retail de Claire's, nous concentrant sur les descriptions de produits, matériels marketing et communications clients. Notre travail a aidé Claire's à étendre sa présence sur les marchés hispanophones tout en maintenant la cohérence de marque.",
+        "services": ["Traduction Retail", "Contenu Marketing", "Localisation de Marque"]
+      },
+      "dbarcelona": {
+        "name": "Diputació de Barcelona",
+        "project": "Traduction de Documents Gouvernementaux",
+        "description": "Nous avons fourni des services officiels de traduction pour la Diputació de Barcelona, traitant des documents administratifs, communications publiques et correspondance officielle. Nos traductions certifiées ont assuré la conformité aux exigences légales et facilité la communication entre différentes communautés linguistiques.",
+        "services": ["Traduction Officielle", "Documents Gouvernementaux", "Traduction Certifiée"]
+      }
+    }
+  }
+}
