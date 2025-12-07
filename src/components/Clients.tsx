@@ -201,6 +201,25 @@ const Clients: React.FC = () => {
     setSelectedClient(null);
   };
 
+  // Handle Escape key to close modal
+  React.useEffect(() => {
+    const handleEscapeKey = (event: KeyboardEvent) => {
+      if (event.key === 'Escape' && isModalOpen) {
+        closeModal();
+      }
+    };
+
+    if (isModalOpen) {
+      document.addEventListener('keydown', handleEscapeKey);
+      document.body.style.overflow = 'hidden'; // Prevent background scrolling
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleEscapeKey);
+      document.body.style.overflow = 'unset';
+    };
+  }, [isModalOpen]);
+
   const allLogos = [
     { name: "World Health Organization", logo: WorldHealthHum },
     { name: "GSK", logo: GSK },
