@@ -28,9 +28,11 @@ const Navbar = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({
+      const navbarHeight = 80; // Approximate navbar height
+      const elementPosition = element.offsetTop - navbarHeight;
+      window.scrollTo({
+        top: elementPosition,
         behavior: "smooth",
-        block: "start",
       });
     }
     closeMenu();
@@ -61,7 +63,7 @@ const Navbar = () => {
             <a
               href="#sobre-mi"
               className="nav-link"
-              onClick={() => scrollToSection("sobre-mi")}
+              onClick={() => scrollToSection("video-presentation")}
             >
               {t("nav.about")}
             </a>
@@ -75,25 +77,16 @@ const Navbar = () => {
               {t("nav.services")}
             </a>
           </li>
+           <li>
+            <a
+              href="#clients"
+              className="nav-link"
+              onClick={() => scrollToSection("clients")}
+            >
+              {t("nav.clients")}
+            </a>
+          </li>
 
-          <li>
-            <a
-              href="#videos"
-              className="nav-link"
-              onClick={() => scrollToSection("videos")}
-            >
-              {t("nav.videos")}
-            </a>
-          </li>
-          <li>
-            <a
-              href="#portfolio"
-              className="nav-link"
-              onClick={() => scrollToSection("portfolio")}
-            >
-              {t("nav.portfolio")}
-            </a>
-          </li>
           <li>
             <a
               href="#contacto"
@@ -103,6 +96,7 @@ const Navbar = () => {
               {t("nav.contact")}
             </a>
           </li>
+         
         </ul>
         <LanguageDropdown />
         <div

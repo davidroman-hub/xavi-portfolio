@@ -231,35 +231,6 @@ const Services = () => {
       ],
       featured: false,
     },
-    {
-      icon: (
-        <svg
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-        >
-          <path d="M12 14l9-5-9-5-9 5 9 5z" />
-          <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-          />
-        </svg>
-      ),
-      title: t("services.languageLessons.title", "Clases de Idiomas"),
-      description: t(
-        "services.languageLessons.description",
-        "Clases personalizadas de inglés, francés y catalán adaptadas a tu nivel y objetivos específicos."
-      ),
-      features: [
-        t("services.languageLessons.features.0", "Clases individuales"),
-        t("services.languageLessons.features.1", "Metodología personalizada"),
-        t("services.languageLessons.features.2", "Flexibilidad horaria"),
-      ],
-      featured: false,
-    },
   ];
 
   return (
@@ -356,20 +327,13 @@ const Services = () => {
                     <h3>{mode.name}</h3>
                     <p>{mode.description}</p>
 
-                    <ul className="service-features">
+                    <ul className="service-features-2">
                       {mode.pros.map((pro, proIndex) => (
                         <li key={`pro-${proIndex}`}>✅ {pro}</li>
                       ))}
                       {mode.cons.map((con, conIndex) => (
                         <li key={`con-${conIndex}`}>⚠️ {con}</li>
                       ))}
-                      <li>
-                        🌐{" "}
-                        {t(
-                          "services.interpretation.multilingualAvailable",
-                          "Multilingüe disponible"
-                        )}
-                      </li>
                     </ul>
 
                     <div className="interpretation-languages">

@@ -53,7 +53,7 @@ const Hero: FC<ComponenteParams> = ({ t }) => {
             </button>
             <button
               className="btn btn-secondary"
-              onClick={() => scrollToSection("portfolio")}
+              onClick={() => scrollToSection("clients")}
             >
               {t("hero.clients")}
             </button>

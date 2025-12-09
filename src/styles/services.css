@@ -116,6 +116,24 @@
   font-weight: bold;
 }
 
+.service-features-2 {
+  list-style: none;
+}
+
+.service-features-2 li {
+  padding: 0.5rem 0;
+  color: var(--gray-600);
+  position: relative;
+  padding-left: var(--space-lg);
+}
+
+.service-features-2 li::before {
+  position: absolute;
+  left: 0;
+  color: var(--primary-600);
+  font-weight: bold;
+}
+
 /* ============================================
    INTERPRETATION MODES SECTION
    ============================================ */
@@ -228,28 +246,27 @@
   }
 }
 
-  .interpretation-modes-grid {
-    grid-template-columns: 1fr;
-    gap: var(--space-lg);
-    max-width: none;
-  }
+.interpretation-modes-grid {
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+  max-width: none;
+}
 
-  .interpretation-header h3 {
-    font-size: 1.25rem;
-  }
+.interpretation-header h3 {
+  font-size: 1.25rem;
+}
 
-  .mode-header {
-    gap: var(--space-xs);
-  }
+.mode-header {
+  gap: var(--space-xs);
+}
 
-  .mode-header h4 {
-    font-size: 1rem;
-  }
+.mode-header h4 {
+  font-size: 1rem;
+}
 
-  .languages-list {
-    flex-direction: column;
-  }
-
+.languages-list {
+  flex-direction: column;
+}
 
 @media (max-width: 480px) {
   .interpretation-modes-grid {
