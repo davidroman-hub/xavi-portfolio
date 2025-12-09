@@ -163,6 +163,14 @@
   font-style: italic;
 }
 
+.period {
+  display: block;
+  color: var(--primary-600);
+  font-size: 0.9rem;
+  font-weight: var(--font-weight-semibold);
+  margin-top: 0.25rem;
+}
+
 .period-badge {
   display: inline-block;
   background: var(--primary-100);
