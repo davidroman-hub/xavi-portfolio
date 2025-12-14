@@ -7,6 +7,7 @@ import Services from "./components/Services";
 import Footer from "./components/Footer";
 import Clients from "./components/Clients";
 import Contact from "./components/Contact";
+import WhatsAppFloat from "./components/WhatsAppFloat";
 import { useTranslation } from "react-i18next";
 import VideoPresentation from "./components/VideoPesentation";
 import AcademicTraining from "./components/AcademicTraining";
@@ -27,6 +28,7 @@ function App() {
       <Clients />
       <Contact />
       <Footer />
+      <WhatsAppFloat />
     </div>
   );
 }

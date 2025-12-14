@@ -319,5 +319,9 @@
     "rights": "Todos los derechos reservados",
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio"
+  },
+  "whatsapp": {
+    "tooltip": "¡Contáctanos por WhatsApp!",
+    "message": "¡Hola! Me interesa obtener más información sobre sus servicios de traducción."
   }
 }

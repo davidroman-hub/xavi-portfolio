@@ -317,5 +317,9 @@
     "rights": "All rights reserved",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"
+  },
+  "whatsapp": {
+    "tooltip": "Contact us on WhatsApp!",
+    "message": "Hello! I'm interested in getting more information about your translation services."
   }
 }
