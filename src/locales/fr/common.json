@@ -185,5 +185,27 @@
         "services": ["Traduction Officielle", "Documents Gouvernementaux", "Traduction Certifiée"]
       }
     }
+  },
+  "contact": {
+    "title": "DEMANDER UN DEVIS",
+    "description": "Les tarifs des services dépendent de plusieurs facteurs. Si vous souhaitez savoir combien coûterait le service dont vous avez besoin, n'hésitez pas à demander un devis ou à nous contacter.",
+    "informationTitle": "Informations de Contact",
+    "email": {
+      "label": "Email"
+    },
+    "phone": {
+      "label": "Téléphone"
+    },
+    "message": {
+      "label": "Envoyez-nous un message"
+    },
+    "connectWithMe": "Connectez-vous avec moi",
+    "social": {
+      "title": "Réseaux Sociaux",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "skype": "Skype",
+      "discord": "Discord"
+    }
   }
 }

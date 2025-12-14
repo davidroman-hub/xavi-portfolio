@@ -288,5 +288,27 @@
         ]
       }
     }
+  },
+  "contact": {
+    "title": "SOLICITA UN PRESUPUESTO",
+    "description": "Las tarifas del servicio dependen de varios factores. Si desea saber cuánto costaría el servicio que necesita, no dude en solicitar un presupuesto o contactarnos.",
+    "informationTitle": "Información de Contacto",
+    "email": {
+      "label": "Correo"
+    },
+    "phone": {
+      "label": "Teléfono"
+    },
+    "message": {
+      "label": "Envíanos un mensaje"
+    },
+    "connectWithMe": "Conecta conmigo",
+    "social": {
+      "title": "Redes Sociales",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "skype": "Skype",
+      "discord": "Discord"
+    }
   }
 }

@@ -286,5 +286,27 @@
         ]
       }
     }
+  },
+  "contact": {
+    "title": "GET A QUOTE",
+    "description": "Service rates depend on several factors. If you'd like to find out how much the service you need would cost, feel free to request a quote or contact us.",
+    "informationTitle": "Contact Information",
+    "email": {
+      "label": "Email"
+    },
+    "phone": {
+      "label": "Phone"
+    },
+    "message": {
+      "label": "Send us a message"
+    },
+    "connectWithMe": "Connect with me",
+    "social": {
+      "title": "Social Media",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "skype": "Skype",
+      "discord": "Discord"
+    }
   }
 }
