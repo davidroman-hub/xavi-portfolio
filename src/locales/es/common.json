@@ -310,5 +310,14 @@
       "skype": "Skype",
       "discord": "Discord"
     }
+  },
+  "footer": {
+    "tagline": "Conectando idiomas, construyendo puentes",
+    "quickLinks": "Enlaces Rápidos",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
   }
 }

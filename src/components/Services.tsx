@@ -1,13 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
 
 import XaviInwork from "../assets/xavi.png";
 
 const Services = () => {
   const { t } = useTranslation();
-  const [selectedInterpretation, setSelectedInterpretation] = useState<
-    string | null
-  >("open");
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
+
   const services = [
     {
       icon: (
@@ -315,7 +322,11 @@ const Services = () => {
             </div>
             <div className="interpretation-modes-grid">
               {services
-                .find((s) => s.title === t("services.interpretation.title", "Interpretación"))
+                .find(
+                  (s) =>
+                    s.title ===
+                    t("services.interpretation.title", "Interpretación")
+                )
                 ?.interpretationModes?.map((mode, index) => (
                   <div
                     key={mode.id}
@@ -345,7 +356,9 @@ const Services = () => {
                         ` +${mode.languages.length - 3} más`}
                     </div>
 
-                    <button className="get-quote-btn">
+                    <button onClick={() => {
+                      scrollToSection("contacto");
+                    }} className="get-quote-btn">
                       {t("services.requestQuote", "Solicitar Cotización")}
                     </button>
                   </div>

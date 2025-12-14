@@ -207,5 +207,14 @@
       "skype": "Skype",
       "discord": "Discord"
     }
+  },
+  "footer": {
+    "tagline": "Connecter les langues, construire des ponts",
+    "quickLinks": "Liens Rapides",
+    "services": "Services",
+    "contact": "Contact",
+    "rights": "Tous droits réservés",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions de Service"
   }
 }

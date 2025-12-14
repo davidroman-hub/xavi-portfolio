@@ -308,5 +308,14 @@
       "skype": "Skype",
       "discord": "Discord"
     }
+  },
+  "footer": {
+    "tagline": "Connecting languages, building bridges",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
   }
 }
