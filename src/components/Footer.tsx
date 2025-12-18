@@ -19,7 +19,7 @@ const Footer = () => {
   const footerLinks = [
     { id: "inicio", label: t("nav.home", "Inicio") },
     { id: "servicios", label: t("nav.services", "Servicios") },
-    { id: "sobre-mi", label: t("nav.about", "Sobre mí") },
+    { id: "video-presentation", label: t("nav.about", "Sobre mí") },
     { id: "clients", label: t("nav.clients", "Clientes") },
     { id: "contacto", label: t("nav.contact", "Contacto") },
   ];

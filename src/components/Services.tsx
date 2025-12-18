@@ -222,19 +222,17 @@ const Services = () => {
           stroke="currentColor"
           strokeWidth="2"
         >
-          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
-          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+          <circle cx="12" cy="12" r="10" />
+          <line x1="2" y1="12" x2="22" y2="12" />
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
         </svg>
       ),
-      title: t("services.localization.title", "Localización"),
-      description: t(
-        "services.localization.description",
-        "Adaptación completa de software, aplicaciones y contenido digital para mercados específicos."
-      ),
+      title: t("services.languageLessons.title", "Localización"),
+      description: t("services.languageLessons.description"),
       features: [
-        t("services.localization.features.0", "Software & Apps"),
-        t("services.localization.features.1", "Videojuegos"),
-        t("services.localization.features.2", "Adaptación cultural"),
+        t("services.languageLessons.features.0"),
+        t("services.languageLessons.features.1"),
+        t("services.languageLessons.features.2"),
       ],
       featured: false,
     },
@@ -282,6 +280,13 @@ const Services = () => {
                   <li key={featureIndex}>{feature}</li>
                 ))}
               </ul>
+
+              <button
+                onClick={() => scrollToSection("contacto")}
+                className="get-quote-btn"
+              >
+                {t("services.getQuote", "Solicitar Presupuesto")}
+              </button>
 
               {/* {service.title === t('services.interpretation.title', 'Interpretación') && (
                 <button
@@ -356,9 +361,12 @@ const Services = () => {
                         ` +${mode.languages.length - 3} más`}
                     </div>
 
-                    <button onClick={() => {
-                      scrollToSection("contacto");
-                    }} className="get-quote-btn">
+                    <button
+                      onClick={() => {
+                        scrollToSection("contacto");
+                      }}
+                      className="get-quote-btn"
+                    >
                       {t("services.requestQuote", "Solicitar Cotización")}
                     </button>
                   </div>

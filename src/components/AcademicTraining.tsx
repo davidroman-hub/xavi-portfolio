@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import DCU from "../assets/dcu.png";
 import LAGUNA from "../assets/laguna.png";
-import EMCI from "../assets/emci.png";
+import EMCI from "../assets/wE.png";
 import UAB from "../assets/uab.png";
 import professionalPhoto from "../assets/me.png";
 import meInWork from "../assets/me_in_work.png";
@@ -44,7 +44,7 @@ const AcademicTraining: React.FC<ComponenteParams> = () => {
     },
     {
       id: "emci",
-      institution: "EMCI Business School",
+      institution: "Word Express Translations",
       logo: EMCI,
       degree: t("academic.emci.degree"),
       period: t("academic.emci.period"),
