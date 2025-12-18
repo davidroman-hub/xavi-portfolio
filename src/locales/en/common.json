@@ -321,5 +321,29 @@
   "whatsapp": {
     "tooltip": "Contact us on WhatsApp!",
     "message": "Hello! I'm interested in getting more information about your translation services."
+  },
+  "testimonials": {
+    "title": "What our students say",
+    "subtitle": "Real testimonials from students who have transformed their professional careers with our translation and interpretation courses.",
+    "student1": {
+      "role": "Legal Translation Student",
+      "text": "Xavier's classes are exceptional. His practical experience in the field of legal translation has helped me enormously to understand the most complex aspects of this specialization. I recommend his classes 100%.",
+      "course": "Legal Translation Course"
+    },
+    "student2": {
+      "role": "Interpretation Student",
+      "text": "Xavier has a unique methodology that perfectly combines theory and practice. His consecutive and simultaneous interpretation techniques are very effective. I have significantly improved my professional level.",
+      "course": "Professional Interpretation Course"
+    },
+    "student3": {
+      "role": "Medical Translation Student",
+      "text": "As a doctor who needed to specialize in medical translation, I found Xavier to be the perfect teacher. His knowledge of the sector and his patience in explaining complex terminology are invaluable.",
+      "course": "Medical Translation Course"
+    },
+    "cta": {
+      "title": "Ready to start your professional transformation?",
+      "subtitle": "Join hundreds of professionals who have improved their skills with our courses.",
+      "button": "View Available Courses"
+    }
   }
 }

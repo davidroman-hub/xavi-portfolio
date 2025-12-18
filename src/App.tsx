@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Clients from "./components/Clients";
 import Contact from "./components/Contact";
 import WhatsAppFloat from "./components/WhatsAppFloat";
+import Testimonials from "./components/Testimonials";
 import { useTranslation } from "react-i18next";
 import VideoPresentation from "./components/VideoPesentation";
 import AcademicTraining from "./components/AcademicTraining";
@@ -26,6 +27,7 @@ function App() {
       <AcademicTraining t={t} />
       <Services />
       <Clients />
+      <Testimonials />
       <Contact />
       <Footer />
       <WhatsAppFloat />
