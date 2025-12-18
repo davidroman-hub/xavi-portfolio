@@ -1,0 +1,351 @@
+{
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "about": "Sobre nós",
+    "clients": "Clientes",
+    "videos": "Vídeos",
+    "portfolio": "Portfólio",
+    "contact": "Contato"
+  },
+  "hero": {
+    "translator": "Tradutor Profissional Certificado",
+    "connecting": "Conectando idiomas,",
+    "services": "Na BrucarTranslations, a paixão pela comunicação nos motiva a transformar cada projeto em uma ponte confiável entre culturas.",
+    "quotes": "Peça seu orçamento",
+    "clients": "Clientes satisfeitos",
+    "about_us": "Sobre nós",
+    "projects": "Projetos",
+    "satisfaction": "Satisfação",
+    "others": "Outros idiomas"
+  },
+
+  "meet": {
+    "video": "Vídeo de apresentação",
+    "title1.1": "Conheça Xavier Brucart,",
+    "title": "o coração e a mente por trás da",
+    "title2": "BrucarTranslations",
+    "description": "Descubra a paixão, a experiência e a dedicação por trás de cada projeto.",
+    "desc_2": "Um olhar pessoal sobre o profissional que vai transformar as suas palavras.",
+    "watch": "Ver vídeo em outro idioma"
+  },
+
+  "academic": {
+    "badge": "Formação acadêmica",
+    "title": "Trajetória educacional",
+    "description": "Uma jornada pela minha formação acadêmica e linguística, que garante a qualidade dos meus serviços.",
+    "dcu": {
+      "degree": "Intercâmbio acadêmico – Programa Erasmus",
+      "period": "2013 - 2014",
+      "location": "Dublin, Irlanda",
+      "description": "Ano letivo na Dublin City University; Licenciatura em Estudos Interculturais."
+    },
+    "uab": {
+      "degree": "Licenciatura em Tradução e Interpretação",
+      "period": "2011 - 2015",
+      "location": "Barcelona, Espanha",
+      "description": "Especialização em tradução técnica e audiovisual; novas tecnologias; interpretação de ligação e simultânea."
+    },
+    "laguna": {
+      "degree": "Mestrado Europeu em Interpretação de Conferência",
+      "period": "2016 - 2017",
+      "location": "Tenerife, Espanha",
+      "description": "Especialização em interpretação simultânea e consecutiva."
+    },
+    "emci": {
+      "degree": "Formação profissional",
+      "period": "2015 - 2016",
+      "location": "Los Angeles, Califórnia",
+      "description": "Formação profissional com especialização em tradução jurídica."
+    },
+    "profile": {
+      "title": "O profissional por trás do serviço",
+      "description": "Conheça a experiência, a metodologia e a filosofia de trabalho que garantem excelência em cada projeto de tradução.",
+      "professional": "Xavier Brucart",
+      "workplace": "No meu espaço de trabalho",
+      "badge": "Tradutor certificado",
+      "workspace": "Meu espaço profissional de trabalho",
+      "experience": {
+        "title": "Mais de 10 anos de experiência",
+        "description": "Ampla experiência no campo da comunicação intercultural e do ensino de idiomas, com mais de 500 projetos de tradução concluídos e mais de 300 alunos satisfeitos."
+      },
+      "specialization": {
+        "title": "Especialização multilíngue",
+        "description": "Domínio nativo de catalão, espanhol e inglês, com especialização profissional em francês, português e árabe para mercados internacionais."
+      },
+      "approach": {
+        "title": "Metodologia personalizada",
+        "description": "Cada projeto recebe uma abordagem única, priorizando as necessidades específicas do cliente e o contexto cultural do mercado-alvo."
+      }
+    }
+  },
+
+  "services": {
+    "badge": "Serviços",
+    "title": "Soluções de tradução para cada necessidade",
+    "description": "Ofereço serviços especializados adaptados a diferentes setores e tipos de conteúdo.",
+    "mostPopular": "Mais procurado",
+    "requestQuote": "Solicitar orçamento",
+    "documents": {
+      "title": "Tradução de documentos",
+      "description": "Contratos, certidões, manuais técnicos e documentação oficial com absoluta precisão.",
+      "features": [
+        "Certificação oficial",
+        "Formato original preservado",
+        "Revisão incluída"
+      ]
+    },
+    "webMarketing": {
+      "title": "Tradução web e marketing",
+      "description": "Sites, campanhas publicitárias e conteúdos de marketing que conectam com o seu público global.",
+      "features": [
+        "Otimizado para SEO",
+        "Adaptação cultural",
+        "Redação criativa"
+      ]
+    },
+    "interpretation": {
+      "title": "Interpretação",
+      "description": "Serviços profissionais de interpretação para diferentes modalidades e necessidades de comunicação.",
+      "features": [
+        "4 modalidades disponíveis",
+        "Equipamento incluído",
+        "Cobertura multilíngue"
+      ],
+      "showModes": "Ver modalidades disponíveis",
+      "hideModes": "Ocultar modalidades",
+      "modesTitle": "Modalidades de interpretação disponíveis",
+      "modesSubtitle": "Escolha a modalidade que melhor se adapta às suas necessidades",
+      "multilingualAvailable": "Multilíngue disponível",
+      "languages": "Idiomas",
+      "modes": {
+        "simultaneous": {
+          "name": "Simultânea",
+          "description": "Ideal para reuniões e conferências com grandes plateias. Requer equipamento técnico, incluindo cabines de interpretação, respetivas consola e sistemas de som, bem como auscultadores para os ouvintes.",
+          "pros": ["Serviço rápido e fluido"],
+          "cons": ["Custo elevado e necessidade de infraestrutura"]
+        },
+        "consecutive": {
+          "name": "Consecutiva",
+          "description": "Nesta modalidade, não são necessárias cabines nem infraestrutura. O intérprete toma notas durante o discurso e depois transmite a mensagem ao ouvinte no idioma de chegada.",
+          "pros": ["Não requer infraestrutura, custo mais baixo"],
+          "cons": [
+            "Comunicação mais lenta em comparação com a interpretação simultânea"
+          ]
+        },
+        "liaison": {
+          "name": "Liaison ou bilateral",
+          "description": "Na interpretação de liaison ou bilateral, o intérprete interpreta entre duas partes ativas. Ao contrário de outras modalidades, o intérprete deve passar de um idioma a outro; na interpretação bilateral, é essencial que o intérprete tenha grande facilidade de expressão em ambas as línguas."
+        },
+        "remote": {
+          "name": "Simultânea remota",
+          "description": "Esta modalidade ganhou popularidade devido à pandemia de COVID-19, que obrigou muitas reuniões a serem realizadas à distância. Envolve interpretação simultânea feita por meio de plataformas de videoconferência, como o Zoom.",
+          "pros": ["Evita deslocações e investimento em infraestrutura"],
+          "cons": [
+            "Possíveis problemas técnicos ou de conexão, menor fiabilidade"
+          ]
+        }
+      }
+    },
+    "localization": {
+      "title": "Localização",
+      "description": "Adaptação completa de software, aplicações e conteúdos digitais para mercados específicos.",
+      "features": ["Software e apps", "Videojogos", "Adaptação cultural"]
+    },
+    "languageLessons": {
+      "title": "Aulas de idiomas",
+      "description": "Aulas personalizadas de inglês, francês e catalão, adaptadas ao seu nível e objetivos específicos.",
+      "features": [
+        "Aulas individuais",
+        "Metodologia personalizada",
+        "Flexibilidade de horários"
+      ]
+    }
+  },
+
+  "clients": {
+    "title": "Nossos clientes e projetos",
+    "subtitle": "Esta secção apresenta uma lista de clientes com os quais a Brucart Translations trabalhou em projetos relevantes. Detalha o tipo de trabalho realizado para cada cliente, mostrando como os nossos serviços ajudaram a cumprir os seus objetivos e necessidades específicos. Os projetos incluem tanto tradução como interpretação.",
+    "trustedBy": "De confiança para grandes organizações",
+    "clickToLearnMore": "Clique em qualquer logotipo para saber mais sobre a nossa colaboração",
+    "clickToSeeProject": "Clique para ver detalhes do projeto",
+    "servicesProvided": "Serviços prestados:",
+    "stats": {
+      "projects": "Projetos concluídos",
+      "clients": "Clientes satisfeitos",
+      "languages": "Idiomas abrangidos",
+      "years": "Anos de experiência"
+    },
+    "projects": {
+      "who": {
+        "name": "Organização Mundial da Saúde",
+        "project": "Interpretação simultânea para webinars sobre varíola dos macacos",
+        "description": "Atuámos como intérpretes em webinars sobre varíola dos macacos organizados pela Organização Mundial da Saúde (OMS). A nossa interpretação contribuiu para uma comunicação eficaz em eventos de saúde global, garantindo precisão e clareza na transmissão de informações críticas.",
+        "services": [
+          "Interpretação simultânea",
+          "Comunicação em saúde",
+          "Eventos globais"
+        ]
+      },
+      "gsk": {
+        "name": "GSK",
+        "project": "Interpretação em eventos corporativos",
+        "description": "Prestámos serviços de interpretação em eventos online da GSK, destinados a reforçar a defesa e a sensibilização sobre doenças. Facilitámos uma interação eficaz entre participantes de várias regiões. O principal desafio deste projeto foi refletir fielmente as emoções dos oradores, que relatavam experiências difíceis ligadas a doenças graves, como a meningite.",
+        "services": [
+          "Eventos corporativos",
+          "Sensibilização em saúde",
+          "Interpretação online"
+        ]
+      },
+      "ffpp": {
+        "name": "World Forum of Fisher Peoples",
+        "project": "Interpretação no World Forum of Fisher Peoples 2019",
+        "description": "Participámos como intérpretes no World Forum of Fisher Peoples no Sri Lanka em 2019. A nossa interpretação facilitou o diálogo entre delegados internacionais, promovendo a cooperação global e a troca de conhecimentos entre comunidades pesqueiras de todo o mundo.",
+        "services": [
+          "Fóruns internacionais",
+          "Interpretação consecutiva",
+          "Intercâmbio cultural"
+        ]
+      },
+      "mapfre": {
+        "name": "Mapfre",
+        "project": "Interpretação em eventos corporativos e económicos",
+        "description": "Prestámos serviços de interpretação simultânea online para os seminários de auditoria interna da Mapfre. Como uma das principais empresas do setor de seguros e resseguros em Espanha e na Europa, os seminários de auditoria interna da Mapfre incluíam discussões altamente técnicas que exigiam uma interpretação precisa e rigorosa. A nossa preparação minuciosa permitiu lidar com a complexidade da terminologia financeira e de auditoria.",
+        "services": [
+          "Serviços financeiros",
+          "Auditorias internas",
+          "Interpretação técnica"
+        ]
+      },
+      "forvia": {
+        "name": "Forvia",
+        "project": "Interpretação simultânea em reuniões internas",
+        "description": "Oferecemos interpretação em reuniões internas entre Espanha e França para a Forvia, apoiando a comunicação bilateral em um ambiente empresarial multinacional. O nosso trabalho facilitou a coordenação eficaz entre equipas de diferentes países, contribuindo para o êxito das reuniões internas.",
+        "services": [
+          "Reuniões internas",
+          "Interpretação bilateral",
+          "Comunicação corporativa"
+        ]
+      },
+      "embratur": {
+        "name": "Embratur - Turismo do Brasil",
+        "project": "Interpretação para o Pavilhão do Brasil na Fitur Madrid 2024",
+        "description": "Prestámos interpretação consecutiva em vários eventos culturais organizados no Pavilhão do Brasil na Fitur Madrid 2024, como masterclasses de caipirinha e de culinária brasileira. O nosso trabalho ajudou a promover a representação do Brasil neste importante evento internacional, facilitando a interação com visitantes e representantes de todo o mundo.",
+        "services": [
+          "Eventos culturais",
+          "Promoção turística",
+          "Interpretação consecutiva"
+        ]
+      },
+      "unicaja": {
+        "name": "Unicaja Bank",
+        "project": "Tradução de site para catalão",
+        "description": "O Unicaja, um dos principais bancos de Espanha, procurou valorizar a diversidade linguística da sua clientela, garantindo que os clientes catalanófonos se sentissem valorizados e compreendidos. Realizámos a tradução completa do seu site para o catalão, entregando conteúdo financeiro preciso e culturalmente adequado. Este projeto foi fundamental para melhorar a acessibilidade e fortalecer os laços com os clientes na Catalunha.",
+        "services": [
+          "Tradução de sites",
+          "Conteúdo financeiro",
+          "Localização em catalão"
+        ]
+      },
+      "structuralia": {
+        "name": "Structuralia",
+        "project": "Localização de plataforma educativa",
+        "description": "Prestámos serviços abrangentes de tradução e localização para a Structuralia, uma importante plataforma de ensino online especializada em cursos de construção, engenharia e arquitetura. O nosso trabalho incluiu a tradução de conteúdo técnico, materiais de curso e interface da plataforma para garantir acessibilidade a estudantes internacionais.",
+        "services": [
+          "Tradução técnica",
+          "Conteúdo de e-learning",
+          "Localização de plataforma"
+        ]
+      },
+      "tradumedia": {
+        "name": "Tradumedia",
+        "project": "Colaboração em serviços de tradução",
+        "description": "Estabelecemos uma parceria estratégica com a Tradumedia, fornecendo serviços de tradução especializados para o seu diversificado portefólio de clientes. Esta colaboração permitiu ampliar o nosso alcance mantendo elevados padrões de qualidade em traduções técnicas e especializadas.",
+        "services": [
+          "Serviços de parceria",
+          "Tradução técnica",
+          "Garantia de qualidade"
+        ]
+      },
+      "claire": {
+        "name": "Claire's",
+        "project": "Tradução de conteúdos de retalho",
+        "description": "Prestámos serviços de tradução para as operações de retalho da Claire's, com foco em descrições de produtos, materiais de marketing e comunicação com clientes. O nosso trabalho ajudou a Claire's a expandir a sua presença em mercados hispanófonos, mantendo a consistência da marca.",
+        "services": [
+          "Tradução para retalho",
+          "Conteúdo de marketing",
+          "Localização de marca"
+        ]
+      },
+      "dbarcelona": {
+        "name": "Diputació de Barcelona",
+        "project": "Tradução de documentos governamentais",
+        "description": "Prestámos serviços oficiais de tradução para a Diputació de Barcelona, tratando de documentos administrativos, comunicações públicas e correspondência oficial. As nossas traduções certificadas garantiram o cumprimento de requisitos legais e facilitaram a comunicação entre diferentes comunidades linguísticas.",
+        "services": [
+          "Tradução oficial",
+          "Documentos governamentais",
+          "Tradução certificada"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "PEÇA UM ORÇAMENTO",
+    "description": "Os valores dos serviços dependem de vários fatores. Se quiser saber quanto custaria o serviço de que necessita, sinta-se à vontade para solicitar um orçamento ou entrar em contato.",
+    "informationTitle": "Informações de contato",
+    "email": {
+      "label": "Email"
+    },
+    "phone": {
+      "label": "Telefone"
+    },
+    "message": {
+      "label": "Envie-nos uma mensagem"
+    },
+    "connectWithMe": "Conecte-se comigo",
+    "social": {
+      "title": "Redes sociais",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "skype": "Skype",
+      "discord": "Discord"
+    }
+  },
+  "footer": {
+    "tagline": "Conectando idiomas, construindo pontes",
+    "quickLinks": "Links rápidos",
+    "services": "Serviços",
+    "contact": "Contato",
+    "rights": "Todos os direitos reservados",
+    "privacy": "Política de privacidade",
+    "terms": "Termos de serviço"
+  },
+  "whatsapp": {
+    "tooltip": "Fale conosco pelo WhatsApp!",
+    "message": "Olá! Gostaria de obter mais informações sobre os seus serviços de tradução."
+  },
+  "testimonials": {
+    "title": "O que dizem os nossos alunos",
+    "subtitle": "Testemunhos reais de alunos que transformaram as suas carreiras profissionais com os nossos cursos de tradução e interpretação.",
+    "student1": {
+      "role": "Aluno de tradução jurídica",
+      "text": "As aulas do Xavier são excecionais. A sua experiência prática na área da tradução jurídica ajudou-me enormemente a compreender os aspetos mais complexos desta especialização. Recomendo as suas aulas a 100%.",
+      "course": "Curso de tradução jurídica"
+    },
+    "student2": {
+      "role": "Aluno de interpretação",
+      "text": "O Xavier tem uma metodologia única que combina perfeitamente teoria e prática. As suas técnicas de interpretação consecutiva e simultânea são muito eficazes. Melhorei significativamente o meu nível profissional.",
+      "course": "Curso de interpretação profissional"
+    },
+    "student3": {
+      "role": "Aluno de tradução médica",
+      "text": "Como médico que precisava de se especializar em tradução médica, encontrei no Xavier o professor ideal. O seu conhecimento do setor e a sua paciência para explicar terminologia complexa são inestimáveis.",
+      "course": "Curso de tradução médica"
+    },
+    "cta": {
+      "title": "Pronto para começar a sua transformação profissional?",
+      "subtitle": "Junte-se a centenas de profissionais que melhoraram as suas competências com os nossos cursos.",
+      "button": "Ver cursos disponíveis"
+    }
+  }
+}
