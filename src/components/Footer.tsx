@@ -114,8 +114,12 @@ const Footer = () => {
                 {t("footer.privacy", "Política de Privacidad")}
               </button>
               <button className="legal-link">
-                {t("footer.terms", "Términos de Servicio")}
+                {t("footer.terms")}
               </button>
+              <span style={{
+                fontSize: "14px",
+                color: "#777"
+              }}>V.1.0.0</span>
             </div>
           </div>
         </div>

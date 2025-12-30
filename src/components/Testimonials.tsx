@@ -130,20 +130,19 @@ const Testimonials = () => {
           <h3>
             {t(
               "testimonials.cta.title",
-              "¿Listo para comenzar tu transformación profesional?"
+
             )}
           </h3>
           <p>
             {t(
               "testimonials.cta.subtitle",
-              "Únete a cientos de profesionales que han mejorado sus habilidades con nuestros cursos."
             )}
           </p>
           <button
             onClick={() => scrollToSection("contacto")}
             className="cta-button"
           >
-            {t("services.requestQuote", "Solicita un presupuesto")}
+            {t("testimonials.cta.button", "Solicita un presupuesto")}
           </button>
         </div>
       </div>

@@ -19,7 +19,6 @@
     "satisfaction": "Satisfaction",
     "others": "Other languages"
   },
-
   "meet": {
     "video": "Introductory Video",
     "title1.1": "Meet Xavier Brucart,",
@@ -29,7 +28,6 @@
     "desc_2": "A personal look at the professional who will transform your words.",
     "watch": "Watch video in another language"
   },
-
   "academic": {
     "badge": "Academic Training",
     "title": "Educational Journey",
@@ -79,13 +77,12 @@
       }
     }
   },
-
   "services": {
     "badge": "Services",
     "title": "Translation Solutions for Every Need",
     "description": "Specialized and versatile services adapted to different sectors and types of content",
     "mostPopular": "Most Popular",
-    "requestQuote": "Get a quote",
+    "requestQuote": "Get a Quote",
     "getQuote": "Get a Quote",
     "documents": {
       "title": "Translation of Documents",
@@ -123,13 +120,19 @@
         "simultaneous": {
           "name": "Simultaneous Interpreting",
           "description": "Ideal for meetings and conferences with large audiences. Requires technical equipment, such as interpretation booths with their corresponding consoles, microphones and headsets, and sound systems, as well as headphones for the audience.",
-          "pros": ["Fast and seamless service"],
-          "cons": ["Requires infrastructure, high cost"]
+          "pros": [
+            "Fast and seamless service"
+          ],
+          "cons": [
+            "Requires infrastructure, high cost"
+          ]
         },
         "consecutive": {
           "name": "Consecutive Interpreting",
           "description": "No booths or infrastructure are required in this mode. The interpreter takes notes during the speech and then transmits the message to the audience in the target language.",
-          "pros": ["No infrastructure required, lower cost"],
+          "pros": [
+            "No infrastructure required, lower cost"
+          ],
           "cons": [
             "Slower communication compared to simultaneous interpretation"
           ]
@@ -141,15 +144,23 @@
         "remote": {
           "name": "Remote Simultaneous Interpreting",
           "description": "This mode has gained popularity since the COVID-19 pandemic, which required many meetings to be held remotely. It involves interpreting—usually simultaneous—conducted via video conferencing platforms.",
-          "pros": ["No need to travel or invest in infrastructure"],
-          "cons": ["Possible technical or connection problems, less reliable"]
+          "pros": [
+            "No need to travel or invest in infrastructure"
+          ],
+          "cons": [
+            "Possible technical or connection problems, less reliable"
+          ]
         }
       }
     },
     "localization": {
       "title": "Localization",
       "description": "Complete adaptation of software, applications and digital content for specific markets.",
-      "features": ["Software & Apps", "Video games", "Cultural adaptation"]
+      "features": [
+        "Software & Apps",
+        "Video games",
+        "Cultural adaptation"
+      ]
     },
     "languageLessons": {
       "title": "Language Lessons",
@@ -161,7 +172,6 @@
       ]
     }
   },
-
   "clients": {
     "title": "Our Clients & Projects",
     "subtitle": "This section showcases a list of clients with whom Brucart Translations has worked on significant projects. It details the type of work performed for each client, providing context on how our services have helped fulfill their specific objectives and needs. Projects include both translation and interpretation assignments.",
@@ -250,7 +260,11 @@
         "name": "Structuralia",
         "project": "Translation and Voice-over Services",
         "description": "We provided comprehensive translation and voice-over services for Structuralia, a leading online university in Spain specializing in construction, engineering, and architecture courses. Our work included translating the written course materials into English, as well as translating and recording English voice-overs for the lesson videos delivered by the instructors. Our services played a key role in Structuralia’s expansion into international markets.",
-        "services": ["Technical Translation", "E-learning Content", "Voiceover"]
+        "services": [
+          "Technical Translation",
+          "E-learning Content",
+          "Voiceover"
+        ]
       },
       "tradumedia": {
         "name": "Tradumedia",
@@ -286,7 +300,7 @@
   },
   "contact": {
     "title": "GET A QUOTE",
-    "description": "Service rates depend on several factors. If you'd like to find out how much the service you need would cost, feel free to request a quote or contact us.",
+    "description": "Service rates depend on several factors. If you'd like to find out how much the service you need would cost, feel free to contact us.",
     "informationTitle": "Contact Information",
     "email": {
       "label": "Email"
@@ -321,20 +335,20 @@
   },
   "testimonials": {
     "title": "What our students say",
-    "subtitle": "Real testimonials from students who have transformed their professional careers with our translation and interpretation courses.",
+    "subtitle": "Real testimonials from students who have transformed their professional and personal lives thanks to our language courses.",
     "student1": {
-      "role": "Legal Translation Student",
-      "text": "Xavier's classes are exceptional. His practical experience in the field of legal translation has helped me enormously to understand the most complex aspects of this specialization. I recommend his classes 100%.",
-      "course": "Legal Translation Course"
+      "role": "Iceland",
+      "text": "Xavi is very friendly, approachable and creates a relaxed environment where I feel comfortable learning. His teaching style is both interactive and engaging, using real-life examples and conversations that make lessons feel practical and enjoyable. Thanks to his positive attitude, I enjoy every class and have gained more confidence talking Spanish.",
+      "course": "Spanish Course"
     },
     "student2": {
-      "role": "Interpretation Student",
-      "text": "Xavier has a unique methodology that perfectly combines theory and practice. His consecutive and simultaneous interpretation techniques are very effective. I have significantly improved my professional level.",
-      "course": "Professional Interpretation Course"
+      "role": "Ireland",
+      "text": "Xavi is a great instructor that understands different cultures and helps me learn different grammar aspects and how to pronounce different words that I was pronouncing incorrectly. I would highly recommend Xavi as an instructor as his knowledge is second to none in terms of language teaching.",
+      "course": "Spanish Course"
     },
     "student3": {
-      "role": "Medical Translation Student",
-      "text": "As a doctor who needed to specialize in medical translation, I found Xavier to be the perfect teacher. His knowledge of the sector and his patience in explaining complex terminology are invaluable.",
+      "role": "Russia",
+      "text": "My Spanish level before starting classes with Xavi was about beginner A2. Within a couple of months, I was able to speak more fluently and confidently, and I understood Spanish speech well by ear. Xavi has balanced classes - speaking, grammar, listening, watching videos. On our classes we discussed various topics - from global warming to Christmas traditions. It was very interesting! Classes with Xavi are very comfortable and effective. Highly recommend!",
       "course": "Medical Translation Course"
     },
     "cta": {

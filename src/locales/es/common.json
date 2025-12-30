@@ -86,7 +86,7 @@
     "description": "Servicios especializados y versátiles para varios sectores y tipos de contenido",
     "mostPopular": "Más Popular",
     "requestQuote": "Solicitar presupuesto",
-    "getQuote": "Solicitar Presupuesto",
+    "getQuote": "Solicitar presupuesto",
     "documents": {
       "title": "Traducción de documentos",
       "description": "Contratos, certificados, manuales técnicos, memorias de patentes y documentos oficiales.",
@@ -291,63 +291,63 @@
     }
   },
 
-  "contact": {
-    "title": "SOLICITA UN PRESUPUESTO",
-    "description": "Las tarifas del servicio dependen de varios factores. Si desea saber cuánto costaría el servicio que necesita, no dude en solicitar un presupuesto o contactarnos.",
-    "informationTitle": "Información de Contacto",
-    "email": {
-      "label": "Correo"
+    "contact": {
+        "title": "SOLICITA UN PRESUPUESTO",
+        "description": "Las tarifas del servicio dependen de varios factores. Si desea saber cuánto costaría el servicio que necesita, no dude en contactarnos.",
+        "informationTitle": "Información de Contacto",
+        "email": {
+            "label": "Correo"
+        },
+        "phone": {
+            "label": "Teléfono"
+        },
+        "message": {
+            "label": "Envíenos un mensaje"
+        },
+        "connectWithMe": "Conecte conmigo",
+        "social": {
+            "title": "Redes Sociales",
+            "linkedin": "LinkedIn",
+            "github": "GitHub",
+            "skype": "Skype",
+            "discord": "Discord"
+        }
     },
-    "phone": {
-      "label": "Teléfono"
+    "footer": {
+        "tagline": "Conectando idiomas, construyendo puentes",
+        "quickLinks": "Enlaces Rápidos",
+        "services": "Servicios",
+        "contact": "Contacto",
+        "rights": "Todos los derechos reservados",
+        "privacy": "Política de Privacidad",
+        "terms": "Términos de Servicio"
     },
-    "message": {
-      "label": "Envíanos un mensaje"
+    "whatsapp": {
+        "tooltip": "¡Contáctanos por WhatsApp!",
+        "message": "¡Hola! Me interesa obtener más información sobre sus servicios de traducción."
     },
-    "connectWithMe": "Conecta conmigo",
-    "social": {
-      "title": "Redes Sociales",
-      "linkedin": "LinkedIn",
-      "github": "GitHub",
-      "skype": "Skype",
-      "discord": "Discord"
+    "testimonials": {
+        "title": "Lo que dicen nuestros alumnos",
+        "subtitle": "Testimonios reales de estudiantes que han transformado su vida profesional y personal gracias a nuestras clases de idiomas.",
+        "student1": {
+            "role": "Islandia",
+            "text": "Xavi es muy simpático, accesible y crea un ambiente relajado en el que me siento cómoda aprendiendo. Su estilo de enseñanza es interactivo y atractivo, utiliza ejemplos y conversaciones de la vida real que hacen que las clases sean prácticas y agradables. Gracias a su actitud positiva, disfruto de cada clase y he ganado más confianza al hablar español.",
+            "course": "Curso de español"
+        },
+        "student2": {
+            "role": "Irlanda",
+            "text": "Xavi es un gran profesor que entiende las diferentes culturas y me ayuda a aprender diferentes aspectos gramaticales y a pronunciar correctamente palabras que antes pronunciaba mal. Recomiendo encarecidamente a Xavi como profesor, ya que sus conocimientos son insuperables en lo que respecta a idiomas y docencia.",
+            "course": "Curso de español"
+        },
+        "student3": {
+            "role": "Rusia",
+            "text": " Mi nivel de español antes de empezar las clases con Xavi era de principiante A2. En un par de meses ya era capaz de hablar con más fluidez y confianza, y entendía bien el español al oírlo. Xavi equilibra bien las clases: conversación, gramática, comprensión auditiva, vídeos. En nuestras clases hablamos de diversos temas, desde el calentamiento global hasta las tradiciones navideñas. Las clases con Xavi son muy interesantes y provechosas. ¡Las recomiendo!",
+            "course": "Curso de español"
+        },
+        "cta": {
+            "title": "¿Listo para iniciar su transformación profesional?",
+            "subtitle": "Únase a cientos de profesionales que han mejorado sus habilidades con nuestros cursos.",
+            "button": "Ver Cursos Disponibles"
+        }
     }
-  },
-  "footer": {
-    "tagline": "Conectando idiomas, construyendo puentes",
-    "quickLinks": "Enlaces Rápidos",
-    "services": "Servicios",
-    "contact": "Contacto",
-    "rights": "Todos los derechos reservados",
-    "privacy": "Política de Privacidad",
-    "terms": "Términos de Servicio"
-  },
-  "whatsapp": {
-    "tooltip": "¡Contáctanos por WhatsApp!",
-    "message": "¡Hola! Me interesa obtener más información sobre sus servicios de traducción."
-  },
-  "testimonials": {
-    "title": "Lo que dicen nuestros estudiantes",
-    "subtitle": "Testimonios reales de estudiantes que han transformado su carrera profesional con nuestros cursos de traducción e interpretación.",
-    "student1": {
-      "role": "Estudiante de Traducción Legal",
-      "text": "Las clases de Xavier son excepcionales. Su experiencia práctica en el campo de la traducción legal me ha ayudado enormemente a entender los aspectos más complejos de esta especialización. Recomiendo sus clases al 100%.",
-      "course": "Curso de Traducción Jurídica"
-    },
-    "student2": {
-      "role": "Estudiante de Interpretación",
-      "text": "Xavier tiene una metodología única que combina teoría y práctica de manera perfecta. Sus técnicas de interpretación consecutiva y simultánea son muy efectivas. He mejorado significativamente mi nivel profesional.",
-      "course": "Curso de Interpretación Profesional"
-    },
-    "student3": {
-      "role": "Estudiante de Traducción Médica",
-      "text": "Como médica que necesitaba especializarse en traducción médica, encontré en Xavier al profesor perfecto. Su conocimiento del sector y su paciencia para explicar terminología compleja son invaluables.",
-      "course": "Curso de Traducción Médica"
-    },
-    "cta": {
-      "title": "¿Listo para comenzar tu transformación profesional?",
-      "subtitle": "Únete a cientos de profesionales que han mejorado sus habilidades con nuestros cursos.",
-      "button": "Ver Cursos Disponibles"
-    }
-  }
 }

@@ -285,7 +285,7 @@ const Services = () => {
                 onClick={() => scrollToSection("contacto")}
                 className="get-quote-btn"
               >
-                {t("services.getQuote", "Solicitar Presupuesto")}
+                {t("services.getQuote", "Solicitar ")}
               </button>
 
               {/* {service.title === t('services.interpretation.title', 'Interpretación') && (
