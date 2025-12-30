@@ -48,6 +48,7 @@
       "modesSubtitle": "Choisissez le mode qui convient le mieux à vos besoins",
       "multilingualAvailable": "Multilingue disponible",
       "languages": "Langues",
+      "languagesList": "anglais, espagnol, français, portugais, catalan et plus",
       "modes": {
         "simultaneous": {
           "name": "Simultanée",

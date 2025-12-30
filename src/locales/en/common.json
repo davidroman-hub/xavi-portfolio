@@ -116,6 +116,7 @@
       "modesSubtitle": "Choose the mode that best suits your needs",
       "multilingualAvailable": "Multilingual available",
       "languages": "Languages",
+      "languagesList": "English, Spanish, French, Portuguese, Catalan & more",
       "modes": {
         "simultaneous": {
           "name": "Simultaneous Interpreting",

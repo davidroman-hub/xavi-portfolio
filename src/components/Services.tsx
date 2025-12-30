@@ -356,9 +356,10 @@ const Services = () => {
                       <strong>
                         {t("services.interpretation.languages", "Idiomas")}:
                       </strong>{" "}
-                      {mode.languages.slice(0, 3).join(", ")}
-                      {mode.languages.length > 3 &&
-                        ` +${mode.languages.length - 3} más`}
+                      {t(
+                        "services.interpretation.languagesList",
+                        "español, inglés, francés, portugués, catalán y más"
+                      )}
                     </div>
 
                     <button
