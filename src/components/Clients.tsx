@@ -32,7 +32,7 @@ const Clients: React.FC = () => {
         t('clients.projects.who.services.1', 'Health Communications'),
         t('clients.projects.who.services.2', 'Global Events')
       ],
-      year: "2023"
+      year: "2021"
     },
     {
       id: "gsk",
@@ -45,7 +45,7 @@ const Clients: React.FC = () => {
         t('clients.projects.gsk.services.1', 'Health Advocacy'),
         t('clients.projects.gsk.services.2', 'Online Interpretation')
       ],
-      year: "2023"
+      year: "2022"
     },
     {
       id: "ffpp",
@@ -71,7 +71,7 @@ const Clients: React.FC = () => {
         t('clients.projects.mapfre.services.1', 'Internal Audits'),
         t('clients.projects.mapfre.services.2', 'Technical Interpretation')
       ],
-      year: "2022"
+      year: "2024"
     },
     {
       id: "forvia",
@@ -84,7 +84,7 @@ const Clients: React.FC = () => {
         t('clients.projects.forvia.services.1', 'Bilateral Interpretation'),
         t('clients.projects.forvia.services.2', 'Corporate Communications')
       ],
-      year: "2023"
+      year: "2020"
     },
     {
       id: "embratur",
@@ -110,7 +110,7 @@ const Clients: React.FC = () => {
         t('clients.projects.unicaja.services.1', 'Financial Content'),
         t('clients.projects.unicaja.services.2', 'Catalan Localization')
       ],
-      year: "2023"
+      year: "2018"
     },
     {
       id: "structuralia",
@@ -123,7 +123,7 @@ const Clients: React.FC = () => {
         t('clients.projects.structuralia.services.1', 'E-learning Content'),
         t('clients.projects.structuralia.services.2', 'Platform Localization')
       ],
-      year: "2022"
+      year: "2020"
     },
     {
       id: "tradumedia",
@@ -136,7 +136,7 @@ const Clients: React.FC = () => {
         t('clients.projects.tradumedia.services.1', 'Technical Translation'),
         t('clients.projects.tradumedia.services.2', 'Quality Assurance')
       ],
-      year: "2021"
+      year: "2022"
     },
     {
       id: "claire",
@@ -149,7 +149,7 @@ const Clients: React.FC = () => {
         t('clients.projects.claire.services.1', 'Marketing Content'),
         t('clients.projects.claire.services.2', 'Brand Localization')
       ],
-      year: "2022"
+      year: "2021"
     },
     {
       id: "dbarcelona",
@@ -162,7 +162,7 @@ const Clients: React.FC = () => {
         t('clients.projects.dbarcelona.services.1', 'Government Documents'),
         t('clients.projects.dbarcelona.services.2', 'Certified Translation')
       ],
-      year: "2021"
+      year: "2022"
     }
   ];
 
@@ -276,19 +276,15 @@ const Clients: React.FC = () => {
         {/* Statistics */}
         <div className="clients-stats">
           <div className="stat-item">
-            <span className="stat-number">50+</span>
+            <span className="stat-number">500+</span>
             <span className="stat-label">{t('clients.stats.projects', 'Projects Completed')}</span>
           </div>
           <div className="stat-item">
-            <span className="stat-number">25+</span>
+            <span className="stat-number">50+</span>
             <span className="stat-label">{t('clients.stats.clients', 'Satisfied Clients')}</span>
           </div>
           <div className="stat-item">
             <span className="stat-number">10+</span>
-            <span className="stat-label">{t('clients.stats.languages', 'Languages Covered')}</span>
-          </div>
-          <div className="stat-item">
-            <span className="stat-number">5+</span>
             <span className="stat-label">{t('clients.stats.years', 'Years Experience')}</span>
           </div>
         </div>
