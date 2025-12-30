@@ -16,8 +16,8 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "María González",
-      role: t("testimonials.student1.role", "Estudiante de Traducción Legal"),
+      name: "Linda",
+      role: t("testimonials.student1.role"),
       image:
         "https://plus.unsplash.com/premium_photo-1664203067979-47448934fd97?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHx8fDA%3D",
       rating: 5,
@@ -25,12 +25,12 @@ const Testimonials = () => {
         "testimonials.student1.text",
         "Las clases de Xavier son excepcionales. Su experiencia práctica en el campo de la traducción legal me ha ayudado enormemente a entender los aspectos más complejos de esta especialización. Recomiendo sus clases al 100%."
       ),
-      course: t("testimonials.student1.course", "Curso de Traducción Jurídica"),
+      course: t("testimonials.student1.course"),
     },
     {
       id: 2,
-      name: "Carlos Martínez",
-      role: t("testimonials.student2.role", "Estudiante de Interpretación"),
+      name: "Dylan",
+      role: t("testimonials.student2.role"),
       image:
         "https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?semt=ais_hybrid&w=740&q=80",
       rating: 5,
@@ -38,15 +38,12 @@ const Testimonials = () => {
         "testimonials.student2.text",
         "Xavier tiene una metodología única que combina teoría y práctica de manera perfecta. Sus técnicas de interpretación consecutiva y simultánea son muy efectivas. He mejorado significativamente mi nivel profesional."
       ),
-      course: t(
-        "testimonials.student2.course",
-        "Curso de Interpretación Profesional"
-      ),
+      course: t("testimonials.student1.course"),
     },
     {
       id: 3,
-      name: "Ana Rodríguez",
-      role: t("testimonials.student3.role", "Estudiante de Traducción Médica"),
+      name: "Valentina",
+      role: t("testimonials.student2.role"),
       image:
         "https://static.vecteezy.com/system/resources/thumbnails/007/209/020/small/close-up-shot-of-happy-dark-skinned-afro-american-woman-laughs-positively-being-in-good-mood-dressed-in-black-casual-clothes-isolated-on-grey-background-human-emotions-and-feeligs-concept-photo.jpg",
       rating: 5,
@@ -54,8 +51,24 @@ const Testimonials = () => {
         "testimonials.student3.text",
         "Como médica que necesitaba especializarse en traducción médica, encontré en Xavier al profesor perfecto. Su conocimiento del sector y su paciencia para explicar terminología compleja son invaluables."
       ),
-      course: t("testimonials.student3.course", "Curso de Traducción Médica"),
+      course: t("testimonials.student1.course"),
     },
+
+    {
+      id: 4,
+      name: "Judith",
+      role: t("testimonials.student4.role"),
+      image:
+        "https://images.unsplash.com/photo-1618835962148-cf177563c6c0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGh1bWFuYXxlbnwwfHwwfHx8MA%3D%3D",
+      rating: 5,
+      text: t(
+        "testimonials.student4.text",
+        "El inglés siempre fue una asignatura que me costó mucho en la escuela, hasta que empecé clases con Xavi. A partir de entonces, mejoré mucho mi expresión oral y mi comprensión, lo que me ayudó a aprobar la asignatura sin problemas."
+      ),
+      course: t("testimonials.student4.course"),
+    },
+
+
   ];
 
   const renderStars = (rating: number) => {
@@ -91,6 +104,7 @@ const Testimonials = () => {
 
         {/* Testimonials Grid */}
         <div className="testimonials-grid">
+          
           {testimonials.map((testimonial) => (
             <div key={testimonial.id} className="testimonial-card">
               {/* Quote Icon */}
