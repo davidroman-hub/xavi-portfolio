@@ -25,8 +25,8 @@
     "title1.1": "Conozca a Xavier Brucart,",
     "title": "el corazón y la mente detrás de",
     "title2": "BrucarTranslations",
-    "description": "Descubre la pasión, experiencia y dedicación que hay detrás de cada proyecto.",
-    "desc_2": " Una mirada personal al profesional que transformará tus palabras.",
+    "description": "Descubra la pasión, experiencia y dedicación que hay detrás de cada proyecto.",
+    "desc_2": " Una mirada personal al profesional que transformará sus palabras.",
     "watch": "Ver presentación en otro idioma"
   },
 
@@ -60,7 +60,7 @@
     },
     "profile": {
       "title": "El profesional detrás del servicio",
-      "description": "Conoce la experiencia, metodología y filosofía de trabajo que garantizan la excelencia en cada proyecto de traducción.",
+      "description": "Conozca la experiencia, metodología y filosofía de trabajo que garantizan la excelencia en cada proyecto de traducción.",
       "professional": "Xavier Brucart",
       "workplace": "En mi espacio de trabajo",
       "badge": "Traductor Certificado",
@@ -116,13 +116,13 @@
       "showModes": "Ver modalidades disponibles",
       "hideModes": "Ocultar modalidades",
       "modesTitle": "Modalidades de interpretación disponibles",
-      "modesSubtitle": "Elige el modo que mejor se adapte a tus necesidades",
+      "modesSubtitle": "Elija el modo que mejor se adapte a sus necesidades",
       "multilingualAvailable": "Multilingüe disponible",
       "languages": "Idiomas",
       "languagesList": "español, inglés, francés, portugués, catalán y más",
       "modes": {
         "simultaneous": {
-          "name": "Simultánea",
+          "name": " Interpretación Simultánea",
           "description": "Ideal para reuniones y conferencias con gran audiencia. Precisa de infraestructura, como cabinas de interpretación con sus consolas, micrófonos y cascos, sistemas de sonido, así como auriculares para los oyentes.",
           "pros": ["Servicio rápido y fluido"],
           "cons": ["Alto coste y necesidad de infraestructura"]
@@ -169,8 +169,8 @@
     "title": "Nuestros Clientes y Proyectos",
     "subtitle": "Esta sección muestra una lista de clientes con los que Brucart Translations ha trabajado en proyectos significativos. Detalla el tipo de trabajo realizado para cada cliente, proporcionando contexto sobre cómo nuestros servicios han ayudado a cumplir sus objetivos y necesidades específicas. Los proyectos incluyen tanto asignaciones de traducción como de interpretación.",
     "trustedBy": "Confianza de Organizaciones Líderes",
-    "clickToLearnMore": "Haz clic en cualquier logo para conocer más sobre nuestra colaboración",
-    "clickToSeeProject": "Haz clic para ver detalles del proyecto",
+    "clickToLearnMore": "Haga clic en cualquier logo para conocer más sobre nuestra colaboración",
+    "clickToSeeProject": "Haga clic para ver detalles del proyecto",
     "servicesProvided": "Servicios Proporcionados:",
     "stats": {
       "projects": "Proyectos Completados",
@@ -293,7 +293,7 @@
   },
 
     "contact": {
-        "title": "SOLICITA UN PRESUPUESTO",
+        "title": "SOLICITE UN PRESUPUESTO",
         "description": "Las tarifas del servicio dependen de varios factores. Si desea saber cuánto costaría el servicio que necesita, no dude en contactarnos.",
         "informationTitle": "Información de Contacto",
         "email": {

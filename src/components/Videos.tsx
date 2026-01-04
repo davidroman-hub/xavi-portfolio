@@ -16,7 +16,7 @@ const Videos = () => {
       embedId: "dQw4w9WgXcQ", // Reemplaza con el ID real del video
       title: "Mi Proceso de Traducción",
       description:
-        "Descubre paso a paso cómo trabajo cada proyecto para garantizar la máxima calidad y precisión.",
+        "Descubra paso a paso cómo trabajo cada proyecto para garantizar la máxima calidad y precisión.",
       duration: "5:20 min",
       category: "Metodología",
     },

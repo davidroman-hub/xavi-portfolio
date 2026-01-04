@@ -318,7 +318,6 @@ const Services = () => {
               <p>
                 {t(
                   "services.interpretation.modesSubtitle",
-                  "Elige el modo que mejor se adapte a tus necesidades"
                 )}
               </p>
               <div className="services-image">

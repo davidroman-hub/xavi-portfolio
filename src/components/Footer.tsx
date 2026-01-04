@@ -38,7 +38,7 @@ const Footer = () => {
 
             <div className="footer-social">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/brucartinterpreter/?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon"

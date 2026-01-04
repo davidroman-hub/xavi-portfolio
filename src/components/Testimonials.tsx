@@ -43,7 +43,7 @@ const Testimonials = () => {
     {
       id: 3,
       name: "Valentina",
-      role: t("testimonials.student2.role"),
+      role: t("testimonials.student3.role"),
       image:
         "https://static.vecteezy.com/system/resources/thumbnails/007/209/020/small/close-up-shot-of-happy-dark-skinned-afro-american-woman-laughs-positively-being-in-good-mood-dressed-in-black-casual-clothes-isolated-on-grey-background-human-emotions-and-feeligs-concept-photo.jpg",
       rating: 5,
@@ -156,7 +156,7 @@ const Testimonials = () => {
             onClick={() => scrollToSection("contacto")}
             className="cta-button"
           >
-            {t("testimonials.cta.button", "Solicita un presupuesto")}
+            {t("testimonials.cta.button")}
           </button>
         </div>
       </div>
