@@ -330,6 +330,17 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"
   },
+  "legal": {
+    "lastUpdated": "Last updated",
+    "privacy": {
+      "title": "Privacy Policy",
+      "date": "January 4, 2026"
+    },
+    "terms": {
+      "title": "Terms and Conditions of Service",
+      "date": "January 4, 2026"
+    }
+  },
   "whatsapp": {
     "tooltip": "Contact us on WhatsApp!",
     "message": "Hello! I'm interested in getting more information about your translation services."

@@ -321,6 +321,17 @@
     "privacy": "Política de privacidade",
     "terms": "Termos de serviço"
   },
+  "legal": {
+    "lastUpdated": "Última atualização",
+    "privacy": {
+      "title": "Política de Privacidade",
+      "date": "4 de janeiro de 2026"
+    },
+    "terms": {
+      "title": "Termos e Condições de Serviço",
+      "date": "4 de janeiro de 2026"
+    }
+  },
   "whatsapp": {
     "tooltip": "Fale conosco pelo WhatsApp!",
     "message": "Olá! Gostaria de obter mais informações sobre os seus serviços de tradução."

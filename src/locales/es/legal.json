@@ -1,0 +1,200 @@
+{
+  "legal": {
+    "lastUpdated": "Última actualización",
+    "privacy": {
+      "title": "Política de Privacidad",
+      "date": "4 de enero de 2026",
+      "section1": {
+        "title": "1. Información General",
+        "content1": "BrucarTranslations, con domicilio en Barcelona, España, es responsable del tratamiento de los datos personales que nos proporcione. Esta Política de Privacidad describe cómo recopilamos, usamos y protegemos su información personal cuando utiliza nuestros servicios de traducción, interpretación y clases de idiomas.",
+        "content2": "Nos comprometemos a proteger su privacidad y cumplir con el Reglamento General de Protección de Datos (RGPD) y la legislación española aplicable en materia de protección de datos."
+      },
+      "section2": {
+        "title": "2. Datos que Recopilamos",
+        "subtitle1": "2.1 Información de Contacto",
+        "content1": "Recopilamos la siguiente información cuando solicita nuestros servicios:",
+        "item1": "Nombre y apellidos",
+        "item2": "Dirección de correo electrónico",
+        "item3": "Número de teléfono",
+        "item4": "Empresa u organización (si aplica)",
+        "item5": "Dirección postal (cuando sea necesario para la facturación o envío de documentos)",
+        "subtitle2": "2.2 Información del Proyecto",
+        "item6": "Documentos y archivos proporcionados para traducción",
+        "item7": "Detalles del servicio solicitado",
+        "item8": "Preferencias lingüísticas y requisitos específicos",
+        "subtitle3": "2.3 Información Técnica",
+        "item9": "Dirección IP",
+        "item10": "Tipo de navegador y dispositivo",
+        "item11": "Páginas visitadas en nuestro sitio web",
+        "item12": "Cookies y tecnologías similares"
+      },
+      "section3": {
+        "title": "3. Uso de la Información",
+        "content": "Utilizamos su información personal para:",
+        "item1": "Proporcionar los servicios de traducción, interpretación y clases de idiomas solicitados",
+        "item2": "Comunicarnos con usted sobre su proyecto o consulta",
+        "item3": "Procesar pagos y emitir facturas",
+        "item4": "Mejorar nuestros servicios y experiencia del cliente",
+        "item5": "Cumplir con obligaciones legales y regulatorias",
+        "item6": "Enviar comunicaciones relacionadas con nuestros servicios (con su consentimiento)"
+      },
+      "section4": {
+        "title": "4. Base Legal para el Tratamiento",
+        "content": "Procesamos sus datos personales en base a:",
+        "item1": "Ejecución de un contrato: necesario para prestar los servicios que ha solicitado",
+        "item2": "Consentimiento: cuando ha aceptado expresamente el tratamiento de sus datos",
+        "item3": "Interés legítimo: para mejorar nuestros servicios y comunicarnos con clientes potenciales",
+        "item4": "Cumplimiento legal: cuando la ley nos obliga a retener cierta información"
+      },
+      "section5": {
+        "title": "5. Compartir Información",
+        "content1": "No vendemos ni alquilamos su información personal a terceros. Podemos compartir su información con:",
+        "item1": "Proveedores de servicios: que nos ayudan a operar nuestro negocio (ej. plataformas de pago, servicios de hosting)",
+        "item2": "Colaboradores profesionales: cuando sea necesario para completar un proyecto (con su consentimiento)",
+        "item3": "Autoridades legales: cuando sea requerido por ley o para proteger nuestros derechos",
+        "content2": "Todos los terceros con los que compartimos información están obligados a mantener la confidencialidad y cumplir con las leyes de protección de datos."
+      },
+      "section6": {
+        "title": "6. Seguridad de los Datos",
+        "content": "Implementamos medidas de seguridad técnicas y organizativas apropiadas para proteger sus datos personales contra acceso no autorizado, alteración, divulgación o destrucción. Esto incluye el uso de cifrado SSL, almacenamiento seguro y acceso restringido a la información personal."
+      },
+      "section7": {
+        "title": "7. Retención de Datos",
+        "content": "Conservamos sus datos personales solo durante el tiempo necesario para cumplir con los fines para los que fueron recopilados, incluido el cumplimiento de requisitos legales, contables o de informes. Los documentos de proyectos completados se conservan durante un período de 5 años, de acuerdo con las obligaciones fiscales españolas."
+      },
+      "section8": {
+        "title": "8. Sus Derechos",
+        "content": "Bajo el RGPD, usted tiene derecho a:",
+        "item1": "Acceder a sus datos personales",
+        "item2": "Rectificar datos inexactos o incompletos",
+        "item3": "Solicitar la eliminación de sus datos",
+        "item4": "Limitar el tratamiento de sus datos",
+        "item5": "Oponerse al tratamiento de sus datos",
+        "item6": "Portabilidad de sus datos",
+        "item7": "Retirar su consentimiento en cualquier momento",
+        "item8": "Presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD)",
+        "footer": "Para ejercer estos derechos, contáctenos en info@brucartranslations.com"
+      },
+      "section9": {
+        "title": "9. Cookies",
+        "content": "Nuestro sitio web utiliza cookies para mejorar su experiencia de navegación. Las cookies son pequeños archivos de texto que se almacenan en su dispositivo. Puede configurar su navegador para rechazar cookies, aunque esto puede afectar la funcionalidad del sitio."
+      },
+      "section10": {
+        "title": "10. Transferencias Internacionales",
+        "content": "Si sus datos se transfieren fuera del Espacio Económico Europeo (EEE), nos aseguraremos de que existan garantías adecuadas de protección de datos, como cláusulas contractuales estándar aprobadas por la Comisión Europea."
+      },
+      "section11": {
+        "title": "11. Cambios en esta Política",
+        "content": "Podemos actualizar esta Política de Privacidad periódicamente. Le notificaremos cualquier cambio significativo publicando la nueva política en nuestro sitio web y actualizando la fecha de \"última actualización\"."
+      },
+      "section12": {
+        "title": "12. Contacto",
+        "content": "Si tiene preguntas sobre esta Política de Privacidad o sobre cómo manejamos sus datos personales, contáctenos:",
+        "email": "Email",
+        "phone": "Teléfono",
+        "location": "Ubicación"
+      }
+    },
+    "terms": {
+      "title": "Términos y Condiciones de Servicio",
+      "date": "4 de enero de 2026",
+      "section1": {
+        "title": "1. Aceptación de los Términos",
+        "content": "Al contratar los servicios de BrucarTranslations, usted acepta estos Términos y Condiciones. Si no está de acuerdo con alguno de estos términos, le rogamos que no utilice nuestros servicios. Estos términos se aplican a todos los servicios ofrecidos, incluyendo traducción de documentos, contenido web y marketing, interpretación, localización y clases de idiomas."
+      },
+      "section2": {
+        "title": "2. Servicios Ofrecidos",
+        "subtitle1": "2.1 Traducción de Documentos",
+        "content1": "Ofrecemos servicios de traducción profesional de documentos técnicos, legales, comerciales y certificados. Las traducciones juradas están certificadas y reconocidas oficialmente.",
+        "subtitle2": "2.2 Traducción de Contenido Web y Marketing",
+        "content2": "Proporcionamos servicios de traducción y localización de sitios web, videojuegos, redes sociales, subtitulación y locución, optimizados para SEO y adaptados culturalmente.",
+        "subtitle3": "2.3 Interpretación",
+        "content3": "Ofrecemos cuatro modalidades de interpretación: simultánea, consecutiva, bilateral (enlace) y remota. La modalidad apropiada dependerá de las necesidades del cliente y las características del evento.",
+        "subtitle4": "2.4 Localización",
+        "content4": "Servicios de adaptación completa de software, aplicaciones y contenido digital para mercados específicos, incluyendo videojuegos.",
+        "subtitle5": "2.5 Clases de Idiomas",
+        "content5": "Clases personalizadas de inglés, francés, catalán y otros idiomas, adaptadas al nivel y objetivos de cada alumno, disponibles de forma presencial u online."
+      },
+      "section3": {
+        "title": "3. Proceso de Solicitud y Presupuesto",
+        "item1": "Los presupuestos se proporcionan de forma gratuita y sin compromiso",
+        "item2": "Los plazos de entrega se acordarán según la complejidad y volumen del proyecto",
+        "item3": "El presupuesto es válido durante 30 días desde su emisión",
+        "item4": "La aceptación del presupuesto constituye un acuerdo vinculante"
+      },
+      "section4": {
+        "title": "4. Tarifas y Pagos",
+        "item1": "Las tarifas se calculan según la complejidad, idioma, volumen y urgencia del proyecto",
+        "item2": "Los servicios de interpretación se facturan por horas o medias jornadas",
+        "item3": "Las clases de idiomas se facturan según el paquete acordado",
+        "item4": "El pago debe realizarse en un plazo de 15 días desde la emisión de la factura",
+        "item5": "Para proyectos de gran volumen, puede solicitarse un anticipo del 50%",
+        "item6": "Los pagos pueden realizarse mediante transferencia bancaria o métodos acordados",
+        "item7": "Los pagos atrasados pueden estar sujetos a intereses de demora"
+      },
+      "section5": {
+        "title": "5. Entrega de Trabajos",
+        "item1": "Los plazos de entrega se acordarán previamente y se comunicarán en el presupuesto",
+        "item2": "Entregas urgentes pueden estar sujetas a tarifas adicionales",
+        "item3": "Los trabajos se entregarán en el formato acordado (PDF, Word, etc.)",
+        "item4": "Las revisiones menores están incluidas; modificaciones sustanciales pueden tener coste adicional"
+      },
+      "section6": {
+        "title": "6. Responsabilidades del Cliente",
+        "item1": "Proporcionar documentos y materiales fuente legibles y completos",
+        "item2": "Comunicar claramente requisitos, terminología específica y preferencias",
+        "item3": "Responder a consultas del traductor/intérprete en tiempo razonable",
+        "item4": "Para interpretación: proporcionar información sobre el evento, temas a tratar y materiales de apoyo",
+        "item5": "Garantizar que posee los derechos necesarios sobre los materiales proporcionados"
+      },
+      "section7": {
+        "title": "7. Confidencialidad",
+        "content1": "BrucarTranslations se compromete a mantener la confidencialidad de todos los documentos, información y materiales proporcionados por el cliente. No compartiremos, distribuiremos ni divulgaremos ninguna información a terceros sin su consentimiento expreso, excepto cuando sea requerido por ley.",
+        "content2": "Todos los traductores, intérpretes y colaboradores están sujetos a acuerdos de confidencialidad. Los documentos del cliente se almacenan de forma segura y se eliminan después del período de retención legal."
+      },
+      "section8": {
+        "title": "8. Propiedad Intelectual",
+        "item1": "El cliente retiene todos los derechos sobre el contenido original",
+        "item2": "Una vez completado el pago, el cliente adquiere todos los derechos sobre la traducción",
+        "item3": "BrucarTranslations se reserva el derecho de incluir el proyecto en su portfolio (previo consentimiento del cliente)",
+        "item4": "No se permite el uso de nuestras traducciones para entrenar modelos de IA sin autorización"
+      },
+      "section9": {
+        "title": "9. Garantía de Calidad",
+        "content": "Nos comprometemos a proporcionar servicios de alta calidad. Todas las traducciones incluyen revisión. Si encuentra errores o problemas de calidad, notifíquenos dentro de los 7 días siguientes a la entrega para que podamos corregirlos sin coste adicional. Nuestra responsabilidad se limita a la corrección del trabajo o, en su defecto, al reembolso de las tarifas pagadas por ese proyecto específico."
+      },
+      "section10": {
+        "title": "10. Cancelaciones y Reembolsos",
+        "subtitle1": "10.1 Cancelación por el Cliente",
+        "item1": "Cancelación antes del inicio: sin cargo",
+        "item2": "Cancelación con trabajo iniciado: se facturará el trabajo realizado",
+        "item3": "Cancelación de interpretación: con menos de 48h de antelación se factura el 50%; con menos de 24h se factura el 100%",
+        "subtitle2": "10.2 Cancelación por BrucarTranslations",
+        "content": "Nos reservamos el derecho de rechazar o cancelar un proyecto si: el contenido es ilegal, ofensivo o viola derechos de terceros; el cliente no proporciona información necesaria; o existen circunstancias imprevistas que impiden la realización del servicio."
+      },
+      "section11": {
+        "title": "11. Limitación de Responsabilidad",
+        "content": "BrucarTranslations no será responsable de daños indirectos, incidentales, especiales o consecuentes derivados del uso de nuestros servicios. Nuestra responsabilidad total no excederá el monto pagado por el servicio específico en cuestión. No somos responsables de retrasos causados por el cliente, problemas técnicos fuera de nuestro control, o eventos de fuerza mayor."
+      },
+      "section12": {
+        "title": "12. Servicios de Terceros",
+        "content": "En ocasiones, podemos colaborar con traductores, intérpretes o especialistas externos para completar proyectos. Todos los colaboradores están sujetos a los mismos estándares de calidad y confidencialidad que aplicamos internamente."
+      },
+      "section13": {
+        "title": "13. Modificaciones de los Términos",
+        "content": "Nos reservamos el derecho de modificar estos Términos y Condiciones en cualquier momento. Los cambios entrarán en vigor tras su publicación en nuestro sitio web. Le recomendamos revisar periódicamente estos términos."
+      },
+      "section14": {
+        "title": "14. Ley Aplicable y Jurisdicción",
+        "content": "Estos Términos se rigen por las leyes de España. Cualquier disputa relacionada con estos términos estará sujeta a la jurisdicción exclusiva de los tribunales de Barcelona, España."
+      },
+      "section15": {
+        "title": "15. Contacto",
+        "content": "Para preguntas sobre estos Términos y Condiciones, contáctenos:",
+        "email": "Email",
+        "phone": "Teléfono",
+        "location": "Ubicación"
+      }
+    }
+  }
+}

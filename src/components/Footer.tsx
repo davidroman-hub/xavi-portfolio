@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "../styles/footer.css";
 import logo from "../assets/logo.png";
+import LegalModal from "./LegalModal";
+import PrivacyPolicy from "./PrivacyPolicy";
+import TermsOfService from "./TermsOfService";
 
 const Footer = () => {
   const { t } = useTranslation();
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalContent, setModalContent] = useState<"privacy" | "terms" | null>(null);
+
+  const openModal = (content: "privacy" | "terms") => {
+    setModalContent(content);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setModalContent(null);
+  };
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -110,11 +125,17 @@ const Footer = () => {
               {t("footer.rights", "Todos los derechos reservados")}.
             </p>
             <div className="footer-legal">
-              <button className="legal-link">
+              <button 
+                className="legal-link"
+                onClick={() => openModal("privacy")}
+              >
                 {t("footer.privacy", "Política de Privacidad")}
               </button>
-              <button className="legal-link">
-                {t("footer.terms")}
+              <button 
+                className="legal-link"
+                onClick={() => openModal("terms")}
+              >
+                {t("footer.terms", "Términos de Servicio")}
               </button>
               <span style={{
                 fontSize: "14px",
@@ -124,6 +145,12 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      {/* Legal Modal */}
+      <LegalModal isOpen={isModalOpen} onClose={closeModal}>
+        {modalContent === "privacy" && <PrivacyPolicy />}
+        {modalContent === "terms" && <TermsOfService />}
+      </LegalModal>
     </footer>
   );
 };
