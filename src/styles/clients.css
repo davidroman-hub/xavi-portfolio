@@ -156,6 +156,8 @@
   padding: var(--space-xl);
   box-shadow: var(--shadow-sm);
   border: 1px solid var(--gray-100);
+  position: relative;
+  z-index: 1;
 }
 
 .logos-showcase h3 {
@@ -166,6 +168,8 @@
   margin-bottom: var(--space-lg);
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  position: relative;
+  z-index: 0;
 }
 
 .logos-grid {
@@ -205,6 +209,9 @@
   object-fit: contain;
   filter: opacity(0.85);
   transition: var(--transition-medium);
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .logo-item:hover img {
@@ -397,6 +404,14 @@
   cursor: pointer;
   transition: var(--transition-medium);
   border: 2px solid transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.logo-item.clickable:first-child {
+  /* Ensure first item is always clickable */
+  z-index: 3;
 }
 
 .logo-item.clickable:hover {
@@ -414,6 +429,7 @@
 
 .logo-item.clickable:active {
   transform: scale(1.02);
+  background: var(--primary-100);
 }
 
 /* ===== ANIMATIONS ===== */

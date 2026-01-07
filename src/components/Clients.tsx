@@ -255,6 +255,10 @@ const Clients: React.FC = () => {
                 key={index} 
                 className="logo-item clickable"
                 onClick={() => openModal(client.name)}
+                onTouchEnd={(e) => {
+                  e.preventDefault();
+                  openModal(client.name);
+                }}
                 role="button"
                 tabIndex={0}
                 onKeyPress={(e) => {
@@ -267,6 +271,7 @@ const Clients: React.FC = () => {
                   src={client.logo} 
                   alt={`${client.name} logo`}
                   title={`${client.name} - ${t('clients.clickToSeeProject', 'Click to see project details')}`}
+                  style={{ pointerEvents: 'none' }}
                 />
               </div>
             ))}
