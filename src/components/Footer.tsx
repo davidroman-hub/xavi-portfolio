@@ -140,7 +140,7 @@ const Footer = () => {
               <span style={{
                 fontSize: "14px",
                 color: "#777"
-              }}>V.1.0.0</span>
+              }}>V.1.0.1</span>
             </div>
           </div>
         </div>
