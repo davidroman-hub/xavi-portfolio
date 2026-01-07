@@ -9,7 +9,7 @@
     "contact": "Contacto"
   },
   "hero": {
-    "translator": "Traductor Profesional Certificado",
+    "translator": "Traductor profesional certificado",
     "connecting": "Conectando idiomas,",
     "services": "En BrucarTranslations, nuestra pasión por la comunicación y el lenguaje nos lleva a convertir cada proyecto en un puente seguro entre culturas y lenguas.",
     "quotes": "Obtenga su presupuesto",
@@ -32,7 +32,7 @@
 
   "academic": {
     "badge": "Formación Académica",
-    "title": "Trayectoria Educativa",
+    "title": "Trayectoria educativa",
     "description": "Un recorrido por mi formación académica y lingüística, garantía de la calidad de mis servicios.",
     "dcu": {
       "degree": "Intercambio académico – Programa Erasmus",
@@ -63,7 +63,7 @@
       "description": "Conozca la experiencia, metodología y filosofía de trabajo que garantizan la excelencia en cada proyecto de traducción.",
       "professional": "Xavier Brucart",
       "workplace": "En mi espacio de trabajo",
-      "badge": "Traductor Certificado",
+      "badge": "Traductor certificado",
       "workspace": "Mi espacio de trabajo profesional",
       "experience": {
         "title": "Más de 10 años de experiencia",
@@ -122,7 +122,7 @@
       "languagesList": "español, inglés, francés, portugués, catalán y más",
       "modes": {
         "simultaneous": {
-          "name": " Interpretación Simultánea",
+          "name": " Interpretación simultánea",
           "description": "Ideal para reuniones y conferencias con gran audiencia. Precisa de infraestructura, como cabinas de interpretación con sus consolas, micrófonos y cascos, sistemas de sonido, así como auriculares para los oyentes.",
           "pros": ["Servicio rápido y fluido"],
           "cons": ["Alto coste y necesidad de infraestructura"]
@@ -155,7 +155,7 @@
       "features": ["Software & Apps", "Videojuegos", "Adaptación cultural"]
     },
     "languageLessons": {
-      "title": "Clases de Idiomas",
+      "title": "Clases de idiomas",
       "description": "Clases personalizadas de inglés, francés y catalán adaptadas al nivel y objetivos específicos de cada alumno.",
       "features": [
         "Clases individuales o en grupo",
@@ -364,7 +364,7 @@
         "cta": {
             "title": "¿Listo para iniciar su transformación profesional?",
             "subtitle": "Únase a cientos de profesionales que han mejorado sus habilidades con nuestros cursos.",
-            "button": "Ver Cursos Disponibles"
+            "button": "Ver cursos disponibles"
         }
     }
 }
