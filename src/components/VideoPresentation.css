@@ -89,8 +89,11 @@
   gap: var(--space-sm);
 }
 
-.current-language .flag {
-  font-size: 1.125rem;
+.current-language .flag-icon {
+  width: 28px;
+  height: 19px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }
 
 .current-language .text {
@@ -146,7 +149,15 @@
 }
 
 .language-option .flag {
-  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+}
+
+.language-option .flag-icon-small {
+  width: 28px;
+  height: 19px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }
 
 .language-option .name {

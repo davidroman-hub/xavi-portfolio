@@ -1,8 +1,9 @@
 import React, { FC, useEffect, useState } from "react";
 import "./VideoPresentation.css";
 import { ComponenteParams } from "../App";
-import flag from "../assets/catalan.png";
+import flag from "../assets/catala.png";
 import i18next from "i18next";
+import { ES, GB, FR, SA } from 'country-flag-icons/react/3x2';
 
 const VideoPresentation: FC<ComponenteParams> = ({ t }) => {
   const currentLocale = i18next.language;
@@ -12,17 +13,17 @@ const VideoPresentation: FC<ComponenteParams> = ({ t }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const availableLanguages = [
-    { code: "es", name: "Español", flag: "🇪🇸", videoId: "c9Vy1Sso4xc" },
-    { code: "en", name: "English", flag: "🇬🇧", videoId: "tZ8n5v_FDHI" },
-    { code: "fr", name: "Français", flag: "🇫🇷", videoId: "1AM1RSyAsnk" },
+    { code: "es", name: "Español", Flag: ES, videoId: "c9Vy1Sso4xc" },
+    { code: "en", name: "English", Flag: GB, videoId: "tZ8n5v_FDHI" },
+    { code: "fr", name: "Français", Flag: FR, videoId: "1AM1RSyAsnk" },
     {
       code: "cat",
       name: "Català",
-      flag: null,
+      Flag: null,
       img: flag,
       videoId: "CdtqidHecK8",
     },
-    { code: "ar", name: "العربية", flag: "🇸🇦", videoId: "HdyVWB8eDZI" },
+    { code: "ar", name: "العربية", Flag: SA, videoId: "HdyVWB8eDZI" },
   ];
 
   const getCurrentLanguage = () => {
@@ -80,15 +81,19 @@ const VideoPresentation: FC<ComponenteParams> = ({ t }) => {
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
             >
               <span className="current-language">
-                {getCurrentLanguage().flag !== null ? (
-                  <span className="flag">{getCurrentLanguage().flag}</span>
-                ) : (
-                  <img
-                    width={20}
-                    src={getCurrentLanguage().img}
-                    alt={getCurrentLanguage().name}
-                  />
-                )}
+                {(() => {
+                  const currentLang = getCurrentLanguage();
+                  const FlagComponent = currentLang.Flag;
+                  return FlagComponent !== null ? (
+                    <FlagComponent className="flag-icon" />
+                  ) : (
+                    <img
+                      className="flag-icon"
+                      src={currentLang.img}
+                      alt={currentLang.name}
+                    />
+                  );
+                })()}
                 <span className="text">{t("meet.watch")}</span>
               </span>
               <span className="chevron">{isDropdownOpen ? "▲" : "▼"}</span>
@@ -96,31 +101,34 @@ const VideoPresentation: FC<ComponenteParams> = ({ t }) => {
 
             {isDropdownOpen && (
               <div className="language-dropdown-menu">
-                {availableLanguages.map((language) => (
-                  <button
-                    key={language.code}
-                    className={`language-option ${
-                      language.code === selectedLanguage ? "active" : ""
-                    }`}
-                    onClick={() => handleLanguageChange(language.code)}
-                  >
-                    <span className="flag">
-                      {language.flag ? (
-                        language.flag
-                      ) : (
-                        <img
-                          width={20}
-                          src={language.img}
-                          alt={language.name}
-                        />
+                {availableLanguages.map((language) => {
+                  const FlagComponent = language.Flag;
+                  return (
+                    <button
+                      key={language.code}
+                      className={`language-option ${
+                        language.code === selectedLanguage ? "active" : ""
+                      }`}
+                      onClick={() => handleLanguageChange(language.code)}
+                    >
+                      <span className="flag">
+                        {FlagComponent ? (
+                          <FlagComponent className="flag-icon-small" />
+                        ) : (
+                          <img
+                            className="flag-icon-small"
+                            src={language.img}
+                            alt={language.name}
+                          />
+                        )}
+                      </span>
+                      <span className="name">{language.name}</span>
+                      {language.code === selectedLanguage && (
+                        <span className="check">✓</span>
                       )}
-                    </span>
-                    <span className="name">{language.name}</span>
-                    {language.code === selectedLanguage && (
-                      <span className="check">✓</span>
-                    )}
-                  </button>
-                ))}
+                    </button>
+                  );
+                })}
               </div>
             )}
           </div>

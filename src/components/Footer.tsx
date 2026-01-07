@@ -121,7 +121,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="footer-bottom-content">
             <p>
-              &copy; {currentYear} Brucar Translations.{" "}
+              &copy; {currentYear} BrucarTranslations.{" "}
               {t("footer.rights", "Todos los derechos reservados")}.
             </p>
             <div className="footer-legal">

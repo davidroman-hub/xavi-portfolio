@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import { ComponenteParams } from "../App";
-import flag from "../assets/catalan.png";
+import flag from "../assets/catala.png";
+import { ES, GB, FR, PT, SA } from 'country-flag-icons/react/3x2';
 
 const Hero: FC<ComponenteParams> = ({ t }) => {
   const scrollToSection = (sectionId: string) => {
@@ -82,33 +83,45 @@ const Hero: FC<ComponenteParams> = ({ t }) => {
         </div>
         <div className="hero-visual">
           <div className="floating-card card-1">
-            <div className="card-flag">🇪🇸</div>
+            <div className="card-flag">
+              <ES className="flag-icon-hero" />
+            </div>
             <div className="card-text">Español</div>
           </div>
           <div className="floating-card card-2">
-            <div className="card-flag">🇬🇧</div>
+            <div className="card-flag">
+              <GB className="flag-icon-hero" />
+            </div>
             <div className="card-text">English</div>
           </div>
           <div className="floating-card card-3">
-            <div className="card-flag">🇫🇷</div>
+            <div className="card-flag">
+              <FR className="flag-icon-hero" />
+            </div>
             <div className="card-text">Français</div>
           </div>
           <div className="floating-card card-4">
-            <div className="card-flag">🇵🇹</div>
+            <div className="card-flag">
+              <PT className="flag-icon-hero" />
+            </div>
             <div className="card-text">Português</div>
           </div>
           <div className="floating-card card-5">
-            <div className="card-flag">🇸🇦</div>
-            <div className="card-text">العَرَبِيَّة</div>
+            <div className="card-flag">
+              <SA className="flag-icon-hero" />
+            </div>
+            <div className="card-text">العَرَبِيَّة</div>
           </div>
           <div className="floating-card card-5">
-            <div className="card-flag">🇸🇦</div>
+            <div className="card-flag">
+              <SA className="flag-icon-hero" />
+            </div>
             <div className="card-text">العَرَبِيَّة</div>
           </div>
 
           <div className="floating-card card-6">
             <div className="card-flag">
-              <img width={20} src={flag} alt="Català" />
+              <img className="flag-icon-hero" src={flag} alt="Català" />
             </div>
             <div className="card-text">Català</div>
           </div>

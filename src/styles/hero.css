@@ -218,16 +218,22 @@
 
 .card-flag {
   font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flag-icon-hero {
+  width: 32px;
+  height: 22px;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 .card-text {
   top: 0%;
   left: 50%;
   animation-delay: 0s;
-}
-
-.card-flag {
-  font-size: 1.5rem;
 }
 
 .card-text {
